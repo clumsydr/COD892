@@ -1,0 +1,47 @@
+.PHONY: plot_all_qmdl
+
+DIR ?= ../data
+OUT_DIR ?= ../qmdl_output
+
+all:
+	make plot_all_qmdl
+
+plot_all_qmdl:
+	@if [ -z "$(DIR)" ]; then \
+		echo "Error: Please specify DIR (e.g., make plot_all_qmdl DIR=../loggers/scheduled_captures_ground)"; \
+		exit 1; \
+	fi
+	@if [ -z "$(OUT_DIR)" ]; then \
+		echo "Error: Please specify OUT_DIR (e.g., make plot_all_qmdl OUT_DIR=../output)"; \
+		exit 1; \
+	fi
+	@echo "Searching for subdirectories containing .qmdl files in $(DIR)..."
+	@subdirs=$$(find "$(DIR)" -mindepth 1 -type f -name "*.qmdl" -exec dirname {} + 2>/dev/null | sort -u); \
+	if [ -z "$$subdirs" ]; then \
+		echo "No .qmdl files found in subdirectories of $(DIR)"; \
+		exit 0; \
+	fi; \
+	for dir in $$subdirs; do \
+		rel_dir=$$(realpath --relative-to="$(DIR)" "$$dir"); \
+		out_subdir="$(OUT_DIR)/$$rel_dir"; \
+		mkdir -p "$$out_subdir"; \
+		echo ""; \
+		echo "=================================================="; \
+		echo "Processing .qmdl files in: $$dir"; \
+		echo "Saving outputs to: $$out_subdir"; \
+		echo "=================================================="; \
+		qmdl_files=$$(ls "$$dir"/*.qmdl 2>/dev/null); \
+		if [ -n "$$qmdl_files" ]; then \
+			if [ ! -f "$$out_subdir/qmdl-to-scat.txt" ]; then \
+				echo "Decoding QMDL logs with scat..."; \
+				> "$$out_subdir/qmdl-to-scat.txt"; \
+				for q_file in $$qmdl_files; do \
+					scat -t qc -d "$$q_file" >> "$$out_subdir/qmdl-to-scat.txt"; \
+				done; \
+			fi; \
+			echo "Extracting diagnostic payload bytes..."; \
+			python3 qmdl-to-code.py "$$out_subdir/qmdl-to-scat.txt" "$$out_subdir/payloads.txt"; \
+			echo "Creating metrics csv..."; \
+			python3 dump_readable_logs.py "$$out_subdir/payloads.txt"; \
+		fi; \
+	done
