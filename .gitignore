@@ -3,7 +3,15 @@ B881-plot-generator
 data
 graphs
 plot_env
+
+# Output flagging
 qmdl_output
+diag_*.txt
+._diag_*.txt
+payloads.txt
+qmdl-to-scat.txt
+
+
 QMDL-processing
 results
 scat
