@@ -1,0 +1,825 @@
+op,loc,date,run,direction,rows_4g,rows_5g,collisions,rows_out,notes
+Airtel,outdoor_Rajdhani,20261013,capture_001_20261013_165103,downlink,488,2475,106,2857,4G: 14333 rows share a timestamp within 4G -> max; 5G: 9247 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_001_20261013_170839,downlink,147,1658,28,1777,4G: 5101 rows share a timestamp within 4G -> max; 5G: 4555 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_002_20261013_165914,downlink,109,1277,35,1351,4G: 3621 rows share a timestamp within 4G -> max; 5G: 4429 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_002_20261013_171659,downlink,173,1518,36,1655,4G: 5037 rows share a timestamp within 4G -> max; 5G: 4518 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_003_20261013_173018,downlink,173,1096,38,1231,4G: 5149 rows share a timestamp within 4G -> max; 5G: 1316 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_004_20261013_173830,downlink,147,1500,26,1621,4G: 3310 rows share a timestamp within 4G -> max; 5G: 3691 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_001_20261013_165103,uplink,1639,2723,0,4362,4G: 5117 rows share a timestamp within 4G -> max; dropped 375 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_001_20261013_170839,uplink,902,1811,0,2713,4G: 1711 rows share a timestamp within 4G -> max; dropped 110 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_002_20261013_165914,uplink,877,1612,0,2489,4G: 2899 rows share a timestamp within 4G -> max; dropped 198 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_002_20261013_171659,uplink,1112,2162,0,3274,4G: 2255 rows share a timestamp within 4G -> max; dropped 128 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_003_20261013_173018,uplink,997,1645,627,2015,4G: 2045 rows share a timestamp within 4G -> max; dropped 283 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_004_20261013_173830,uplink,842,1555,0,2397,4G: 3556 rows share a timestamp within 4G -> max; dropped 183 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_001_20261013_165133,downlink,0,4557,0,4557,empty payloads_b173.csv; 5G: 15946 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_001_20261013_170909,downlink,0,3055,0,3055,empty payloads_b173.csv; 5G: 9762 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_002_20261013_165944,downlink,0,2857,0,2857,empty payloads_b173.csv; 5G: 9603 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_002_20261013_171729,downlink,0,2390,0,2390,empty payloads_b173.csv; 5G: 9951 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_003_20261013_173048,downlink,0,2777,0,2777,empty payloads_b173.csv; 5G: 10113 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_004_20261013_173900,downlink,0,2803,0,2803,empty payloads_b173.csv; 5G: 10485 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_001_20261013_165133,uplink,0,3292,0,3292,empty payloads_b139.csv; dropped 1172 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_001_20261013_170909,uplink,0,2811,0,2811,empty payloads_b139.csv; dropped 286 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_002_20261013_165944,uplink,0,2131,0,2131,empty payloads_b139.csv; dropped 698 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_002_20261013_171729,uplink,0,2707,0,2707,empty payloads_b139.csv; dropped 359 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_003_20261013_173048,uplink,0,2830,0,2830,empty payloads_b139.csv; dropped 544 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_004_20261013_173900,uplink,0,2836,0,2836,empty payloads_b139.csv; dropped 615 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_001_20261013_165203,downlink,114,2214,5,2323,4G: 2657 rows share a timestamp within 4G -> max; 5G: 5968 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_001_20261013_170939,downlink,158,2022,23,2157,4G: 5700 rows share a timestamp within 4G -> max; 5G: 8040 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_002_20261013_170014,downlink,55,1090,2,1143,4G: 1316 rows share a timestamp within 4G -> max; 5G: 2846 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_002_20261013_171759,downlink,160,1744,24,1880,4G: 6254 rows share a timestamp within 4G -> max; 5G: 7513 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_003_20261013_173118,downlink,62,1280,13,1329,4G: 1459 rows share a timestamp within 4G -> max; 5G: 2996 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_004_20261013_173930,downlink,74,1256,18,1312,4G: 1892 rows share a timestamp within 4G -> max; 5G: 2953 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_001_20261013_165203,uplink,1066,2039,32,3073,4G: 1452 rows share a timestamp within 4G -> max; dropped 463 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_001_20261013_170939,uplink,858,1875,1,2732,4G: 978 rows share a timestamp within 4G -> max; dropped 85 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_002_20261013_170014,uplink,605,1040,9,1636,4G: 782 rows share a timestamp within 4G -> max; dropped 197 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_002_20261013_171759,uplink,568,1498,48,2018,4G: 3863 rows share a timestamp within 4G -> max; dropped 195 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_003_20261013_173118,uplink,678,1261,19,1920,4G: 926 rows share a timestamp within 4G -> max; dropped 195 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_004_20261013_173930,uplink,684,1203,21,1866,4G: 950 rows share a timestamp within 4G -> max; dropped 187 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261006,capture_000_20261006_162251,downlink,355,5740,85,6010,4G: 11622 rows share a timestamp within 4G -> max; 5G: 13714 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261006,capture_000_20261006_163634,downlink,259,3559,45,3773,4G: 5047 rows share a timestamp within 4G -> max; 5G: 9527 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261006,capture_000_20261006_170819,downlink,320,3271,40,3551,4G: 8109 rows share a timestamp within 4G -> max; 5G: 8370 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261006,capture_000_20261006_173627,downlink,269,3139,49,3359,4G: 5595 rows share a timestamp within 4G -> max; 5G: 8415 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261006,capture_000_20261006_180721,downlink,278,3395,51,3622,4G: 5848 rows share a timestamp within 4G -> max; 5G: 7333 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261006,capture_001_20261006_164514,downlink,189,3180,35,3334,4G: 3576 rows share a timestamp within 4G -> max; 5G: 9289 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261006,capture_001_20261006_171715,downlink,0,0,0,0,missing qmdl_output/Airtel/indoor_Bharti501/20261006/capture_001_20261006_171715/payloads_b173.csv; missing qmdl_output/Airtel/indoor_Bharti501/20261006/capture_001_20261006_171715/payloads_b887.csv
+Airtel,indoor_Bharti501,20261006,capture_001_20261006_174446,downlink,236,2933,51,3118,4G: 4726 rows share a timestamp within 4G -> max; 5G: 8143 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261006,capture_001_20261006_181624,downlink,255,3082,32,3305,4G: 5213 rows share a timestamp within 4G -> max; 5G: 6909 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261006,capture_002_20261006_182511,downlink,255,3334,75,3514,4G: 5100 rows share a timestamp within 4G -> max; 5G: 9468 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261006,capture_000_20261006_162251,uplink,3524,6658,0,10182,4G: 5520 rows share a timestamp within 4G -> max; dropped 902 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261006,capture_000_20261006_163634,uplink,1822,3977,119,5680,4G: 11311 rows share a timestamp within 4G -> max; dropped 572 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261006,capture_000_20261006_170819,uplink,1909,3732,869,4772,4G: 11367 rows share a timestamp within 4G -> max; dropped 727 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261006,capture_000_20261006_173627,uplink,1795,3274,473,4596,4G: 11000 rows share a timestamp within 4G -> max; dropped 298 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261006,capture_000_20261006_180721,uplink,1950,3671,800,4821,4G: 11826 rows share a timestamp within 4G -> max; dropped 625 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261006,capture_001_20261006_164514,uplink,1453,3051,2,4502,4G: 9283 rows share a timestamp within 4G -> max; dropped 313 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261006,capture_001_20261006_171715,uplink,0,0,0,0,missing qmdl_output/Airtel/indoor_Bharti501/20261006/capture_001_20261006_171715/payloads_b139.csv; missing qmdl_output/Airtel/indoor_Bharti501/20261006/capture_001_20261006_171715/payloads_b881.csv
+Airtel,indoor_Bharti501,20261006,capture_001_20261006_174446,uplink,1701,3346,803,4244,4G: 10548 rows share a timestamp within 4G -> max; dropped 335 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261006,capture_001_20261006_181624,uplink,1682,3300,333,4649,4G: 10028 rows share a timestamp within 4G -> max; dropped 241 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261006,capture_002_20261006_182511,uplink,1736,3395,1,5130,4G: 10436 rows share a timestamp within 4G -> max; dropped 549 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261006,capture_000_20261006_162321,downlink,0,6943,0,6943,empty payloads_b173.csv; 5G: 23589 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261006,capture_000_20261006_163704,downlink,0,6395,0,6395,empty payloads_b173.csv; 5G: 22772 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261006,capture_000_20261006_170849,downlink,0,6490,0,6490,empty payloads_b173.csv; 5G: 23208 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261006,capture_000_20261006_173657,downlink,0,6312,0,6312,empty payloads_b173.csv; 5G: 21817 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261006,capture_000_20261006_180751,downlink,0,6315,0,6315,empty payloads_b173.csv; 5G: 22353 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261006,capture_001_20261006_164544,downlink,0,6282,0,6282,empty payloads_b173.csv; 5G: 20408 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261006,capture_001_20261006_171745,downlink,0,6271,0,6271,empty payloads_b173.csv; 5G: 21527 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261006,capture_001_20261006_174516,downlink,0,5631,0,5631,empty payloads_b173.csv; 5G: 18526 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261006,capture_001_20261006_181654,downlink,0,6604,0,6604,empty payloads_b173.csv; 5G: 24159 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261006,capture_002_20261006_182541,downlink,0,6108,0,6108,empty payloads_b173.csv; 5G: 21444 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261006,capture_000_20261006_162321,uplink,0,4609,0,4609,empty payloads_b139.csv; dropped 2177 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261006,capture_000_20261006_163704,uplink,0,4237,0,4237,empty payloads_b139.csv; dropped 1916 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261006,capture_000_20261006_170849,uplink,0,4100,0,4100,empty payloads_b139.csv; dropped 2134 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261006,capture_000_20261006_173657,uplink,0,4698,0,4698,empty payloads_b139.csv; dropped 1744 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261006,capture_000_20261006_180751,uplink,0,3892,0,3892,empty payloads_b139.csv; dropped 2207 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261006,capture_001_20261006_164544,uplink,0,4203,0,4203,empty payloads_b139.csv; dropped 1950 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261006,capture_001_20261006_171745,uplink,0,4114,0,4114,empty payloads_b139.csv; dropped 1857 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261006,capture_001_20261006_174516,uplink,0,4030,0,4030,empty payloads_b139.csv; dropped 1846 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261006,capture_001_20261006_181654,uplink,0,4083,0,4083,empty payloads_b139.csv; dropped 2220 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261006,capture_002_20261006_182541,uplink,0,3994,0,3994,empty payloads_b139.csv; dropped 1949 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261006,capture_000_20261006_162351,downlink,1578,0,0,1578,4G: 41879 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_Bharti501,20261006,capture_000_20261006_163734,downlink,158,2761,22,2897,4G: 4331 rows share a timestamp within 4G -> max; 5G: 8806 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261006,capture_000_20261006_170919,downlink,252,2918,11,3159,4G: 8594 rows share a timestamp within 4G -> max; 5G: 12252 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261006,capture_000_20261006_173727,downlink,246,3520,45,3721,4G: 6758 rows share a timestamp within 4G -> max; 5G: 13118 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261006,capture_000_20261006_180821,downlink,492,3488,61,3919,4G: 15846 rows share a timestamp within 4G -> max; 5G: 10822 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261006,capture_001_20261006_164614,downlink,1235,0,0,1235,4G: 34639 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_Bharti501,20261006,capture_001_20261006_171815,downlink,135,2719,17,2837,4G: 3238 rows share a timestamp within 4G -> max; 5G: 10300 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261006,capture_001_20261006_174546,downlink,197,2415,27,2585,4G: 4639 rows share a timestamp within 4G -> max; 5G: 8481 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261006,capture_001_20261006_181724,downlink,898,0,0,898,4G: 37127 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_Bharti501,20261006,capture_002_20261006_182611,downlink,176,0,0,176,4G: 1134 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_Bharti501,20261006,capture_000_20261006_162351,uplink,3629,0,0,3629,4G: 4744 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_Bharti501,20261006,capture_000_20261006_163734,uplink,1418,2421,27,3812,4G: 2260 rows share a timestamp within 4G -> max; dropped 514 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261006,capture_000_20261006_170919,uplink,2211,2464,67,4608,4G: 3544 rows share a timestamp within 4G -> max; dropped 299 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261006,capture_000_20261006_173727,uplink,1026,2866,205,3687,4G: 6432 rows share a timestamp within 4G -> max; dropped 584 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261006,capture_000_20261006_180821,uplink,2944,3158,672,5430,4G: 4310 rows share a timestamp within 4G -> max; dropped 950 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261006,capture_001_20261006_164614,uplink,2678,0,0,2678,4G: 15087 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_Bharti501,20261006,capture_001_20261006_171815,uplink,849,2301,37,3113,4G: 5742 rows share a timestamp within 4G -> max; dropped 375 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261006,capture_001_20261006_174546,uplink,1064,2190,116,3138,4G: 7085 rows share a timestamp within 4G -> max; dropped 408 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261006,capture_001_20261006_181724,uplink,4373,0,0,4373,4G: 8718 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_Bharti501,20261006,capture_002_20261006_182611,uplink,825,0,0,825,4G: 318 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Airtel,indoor_AzadApt,20261013,capture_001_20261013_204604,downlink,231,1360,16,1575,4G: 8413 rows share a timestamp within 4G -> max; 5G: 3026 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261013,capture_001_20261013_204852,downlink,197,1215,21,1391,4G: 7908 rows share a timestamp within 4G -> max; 5G: 2384 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261013,capture_002_20261013_205653,downlink,177,612,1,788,4G: 6577 rows share a timestamp within 4G -> max; 5G: 860 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261013,capture_003_20261013_210510,downlink,86,973,9,1050,4G: 2687 rows share a timestamp within 4G -> max; 5G: 1713 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261013,capture_004_20261013_211304,downlink,245,348,0,593,4G: 9083 rows share a timestamp within 4G -> max; 5G: 228 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261013,capture_005_20261013_212552,downlink,131,1107,18,1220,4G: 4687 rows share a timestamp within 4G -> max; 5G: 1487 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261013,capture_006_20261013_213411,downlink,164,395,1,558,4G: 6162 rows share a timestamp within 4G -> max; 5G: 484 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261013,capture_007_20261013_214222,downlink,146,298,6,438,4G: 4939 rows share a timestamp within 4G -> max; 5G: 243 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261013,capture_008_20261013_230543,downlink,310,0,0,310,4G: 11076 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Airtel,indoor_AzadApt,20261013,capture_009_20261013_231901,downlink,251,0,0,251,4G: 9225 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Airtel,indoor_AzadApt,20261013,capture_001_20261013_204604,uplink,1327,958,5,2280,4G: 6714 rows share a timestamp within 4G -> max; dropped 1213 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261013,capture_001_20261013_204852,uplink,781,824,12,1593,4G: 3106 rows share a timestamp within 4G -> max; dropped 862 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261013,capture_002_20261013_205653,uplink,977,931,145,1763,4G: 4073 rows share a timestamp within 4G -> max; dropped 1022 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261013,capture_003_20261013_210510,uplink,809,656,2,1463,4G: 3494 rows share a timestamp within 4G -> max; dropped 1022 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261013,capture_004_20261013_211304,uplink,1091,372,15,1448,4G: 5019 rows share a timestamp within 4G -> max; dropped 661 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261013,capture_005_20261013_212552,uplink,875,843,113,1605,4G: 4895 rows share a timestamp within 4G -> max; dropped 1131 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261013,capture_006_20261013_213411,uplink,829,410,29,1210,4G: 4007 rows share a timestamp within 4G -> max; dropped 802 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261013,capture_007_20261013_214222,uplink,878,268,17,1129,4G: 5045 rows share a timestamp within 4G -> max; dropped 957 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261013,capture_008_20261013_230543,uplink,1429,0,0,1429,4G: 5656 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Airtel,indoor_AzadApt,20261013,capture_009_20261013_231901,uplink,1445,0,0,1445,4G: 6276 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_001_20261013_204634,downlink,0,4587,0,4587,empty payloads_b173.csv; 5G: 15520 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261013,capture_001_20261013_204922,downlink,0,3027,0,3027,empty payloads_b173.csv; 5G: 9916 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261013,capture_002_20261013_204841,downlink,0,0,0,0,missing qmdl_output/Jio/indoor_AzadApt/20261013/capture_002_20261013_204841/payloads_b173.csv; missing qmdl_output/Jio/indoor_AzadApt/20261013/capture_002_20261013_204841/payloads_b887.csv
+Jio,indoor_AzadApt,20261013,capture_002_20261013_205723,downlink,0,2822,0,2822,empty payloads_b173.csv; 5G: 9937 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261013,capture_003_20261013_210540,downlink,0,2889,0,2889,empty payloads_b173.csv; 5G: 9441 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261013,capture_004_20261013_211334,downlink,0,2721,0,2721,empty payloads_b173.csv; 5G: 9319 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261013,capture_005_20261013_212622,downlink,0,2619,0,2619,empty payloads_b173.csv; 5G: 8415 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261013,capture_006_20261013_213441,downlink,0,2710,0,2710,empty payloads_b173.csv; 5G: 7352 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261013,capture_007_20261013_214252,downlink,0,2507,0,2507,empty payloads_b173.csv; 5G: 9205 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261013,capture_008_20261013_230613,downlink,0,2746,0,2746,empty payloads_b173.csv; 5G: 9638 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261013,capture_009_20261013_231931,downlink,0,2585,0,2585,empty payloads_b173.csv; 5G: 8149 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261013,capture_001_20261013_204634,uplink,0,3635,0,3635,empty payloads_b139.csv; dropped 808 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_001_20261013_204922,uplink,0,3851,0,3851,empty payloads_b139.csv; dropped 722 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_002_20261013_204841,uplink,0,0,0,0,missing qmdl_output/Jio/indoor_AzadApt/20261013/capture_002_20261013_204841/payloads_b139.csv; missing qmdl_output/Jio/indoor_AzadApt/20261013/capture_002_20261013_204841/payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_002_20261013_205723,uplink,0,2390,0,2390,empty payloads_b139.csv; dropped 407 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_003_20261013_210540,uplink,0,2465,0,2465,empty payloads_b139.csv; dropped 306 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_004_20261013_211334,uplink,0,2408,0,2408,empty payloads_b139.csv; dropped 326 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_005_20261013_212622,uplink,0,2257,0,2257,empty payloads_b139.csv; dropped 261 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_006_20261013_213441,uplink,0,2466,0,2466,empty payloads_b139.csv; dropped 407 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_007_20261013_214252,uplink,0,2220,0,2220,empty payloads_b139.csv; dropped 352 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_008_20261013_230613,uplink,0,2412,0,2412,empty payloads_b139.csv; dropped 390 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261013,capture_009_20261013_231931,uplink,0,2267,0,2267,empty payloads_b139.csv; dropped 383 unparsable rows in payloads_b881.csv
+Vodafone,indoor_AzadApt,20261013,capture_001_20261013_204952,downlink,319,0,0,319,4G: 7960 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261013,capture_002_20261013_205753,downlink,270,0,0,270,4G: 5268 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261013,capture_003_20261013_210610,downlink,173,0,0,173,4G: 5142 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261013,capture_004_20261013_211404,downlink,180,0,0,180,4G: 5718 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261013,capture_005_20261013_212652,downlink,236,0,0,236,4G: 4905 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261013,capture_006_20261013_213511,downlink,260,0,0,260,4G: 5656 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261013,capture_007_20261013_214322,downlink,228,0,0,228,4G: 4542 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261013,capture_008_20261013_230643,downlink,293,0,0,293,4G: 5960 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261013,capture_009_20261013_232001,downlink,265,0,0,265,4G: 6144 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261013,capture_001_20261013_204952,uplink,1798,0,0,1798,4G: 15649 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261013,capture_002_20261013_205753,uplink,1853,0,0,1853,4G: 10481 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261013,capture_003_20261013_210610,uplink,895,0,0,895,4G: 5156 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261013,capture_004_20261013_211404,uplink,918,0,0,918,4G: 5176 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261013,capture_005_20261013_212652,uplink,2309,0,0,2309,4G: 20241 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261013,capture_006_20261013_213511,uplink,2049,0,0,2049,4G: 18785 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261013,capture_007_20261013_214322,uplink,1619,0,0,1619,4G: 12779 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261013,capture_008_20261013_230643,uplink,1957,0,0,1957,4G: 15747 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261013,capture_009_20261013_232001,uplink,1894,0,0,1894,4G: 17833 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Airtel,indoor_BlueTokai,20261012,capture_000_20261012_200241,downlink,298,2683,61,2920,4G: 11044 rows share a timestamp within 4G -> max; 5G: 5578 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261012,capture_000_20261012_201245,downlink,181,1832,42,1971,4G: 6720 rows share a timestamp within 4G -> max; 5G: 1596 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261012,capture_000_20261012_202946,downlink,220,1647,41,1826,4G: 7847 rows share a timestamp within 4G -> max; 5G: 2704 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261012,capture_000_20261012_204719,downlink,232,1479,40,1671,4G: 9487 rows share a timestamp within 4G -> max; 5G: 1846 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261012,capture_000_20261012_211210,downlink,215,1708,65,1858,4G: 8507 rows share a timestamp within 4G -> max; 5G: 2670 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261012,capture_001_20261012_202057,downlink,186,1623,33,1776,4G: 7112 rows share a timestamp within 4G -> max; 5G: 2596 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261012,capture_001_20261012_203756,downlink,190,1564,31,1723,4G: 5366 rows share a timestamp within 4G -> max; 5G: 1431 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261012,capture_001_20261012_205524,downlink,173,1569,45,1697,4G: 6380 rows share a timestamp within 4G -> max; 5G: 2870 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261012,capture_001_20261012_212021,downlink,94,1667,19,1742,4G: 2957 rows share a timestamp within 4G -> max; 5G: 3633 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261012,capture_002_20261012_210327,downlink,168,1910,18,2060,4G: 6666 rows share a timestamp within 4G -> max; 5G: 3943 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261012,capture_000_20261012_200241,uplink,1320,2625,0,3945,4G: 8599 rows share a timestamp within 4G -> max; dropped 188 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261012,capture_000_20261012_201245,uplink,981,1773,2,2752,4G: 6096 rows share a timestamp within 4G -> max; dropped 173 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261012,capture_000_20261012_202946,uplink,845,1598,0,2443,4G: 5522 rows share a timestamp within 4G -> max; dropped 59 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261012,capture_000_20261012_204719,uplink,846,1612,25,2433,4G: 5376 rows share a timestamp within 4G -> max; dropped 121 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261012,capture_000_20261012_211210,uplink,842,1715,1,2556,4G: 5367 rows share a timestamp within 4G -> max; dropped 64 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261012,capture_001_20261012_202057,uplink,829,1563,0,2392,4G: 5023 rows share a timestamp within 4G -> max; dropped 115 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261012,capture_001_20261012_203756,uplink,894,1686,0,2580,4G: 5875 rows share a timestamp within 4G -> max; dropped 79 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261012,capture_001_20261012_205524,uplink,809,1578,792,1595,4G: 3522 rows share a timestamp within 4G -> max; dropped 100 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261012,capture_001_20261012_212021,uplink,680,1528,0,2208,4G: 4869 rows share a timestamp within 4G -> max; dropped 214 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261012,capture_002_20261012_210327,uplink,895,1643,0,2538,4G: 5488 rows share a timestamp within 4G -> max; dropped 67 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261012,capture_000_20261012_200311,downlink,0,4554,0,4554,empty payloads_b173.csv; 5G: 12481 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261012,capture_000_20261012_201315,downlink,0,3369,0,3369,empty payloads_b173.csv; 5G: 10336 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261012,capture_000_20261012_203016,downlink,0,3255,0,3255,empty payloads_b173.csv; 5G: 8900 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261012,capture_000_20261012_204749,downlink,0,3089,0,3089,empty payloads_b173.csv; 5G: 9093 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261012,capture_000_20261012_211240,downlink,0,2859,0,2859,empty payloads_b173.csv; 5G: 7908 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261012,capture_001_20261012_202127,downlink,0,3207,0,3207,empty payloads_b173.csv; 5G: 9294 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261012,capture_001_20261012_203826,downlink,0,2935,0,2935,empty payloads_b173.csv; 5G: 7292 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261012,capture_001_20261012_205554,downlink,0,3174,0,3174,empty payloads_b173.csv; 5G: 8490 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261012,capture_001_20261012_212051,downlink,0,2290,0,2290,empty payloads_b173.csv; 5G: 6830 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261012,capture_002_20261012_210357,downlink,0,2819,0,2819,empty payloads_b173.csv; 5G: 7353 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261012,capture_000_20261012_200311,uplink,0,3570,0,3570,empty payloads_b139.csv; dropped 879 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261012,capture_000_20261012_201315,uplink,0,2545,0,2545,empty payloads_b139.csv; dropped 632 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261012,capture_000_20261012_203016,uplink,0,2407,0,2407,empty payloads_b139.csv; dropped 686 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261012,capture_000_20261012_204749,uplink,0,2459,0,2459,empty payloads_b139.csv; dropped 467 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261012,capture_000_20261012_211240,uplink,0,2294,0,2294,empty payloads_b139.csv; dropped 497 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261012,capture_001_20261012_202127,uplink,0,2422,0,2422,empty payloads_b139.csv; dropped 650 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261012,capture_001_20261012_203826,uplink,0,2311,0,2311,empty payloads_b139.csv; dropped 566 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261012,capture_001_20261012_205554,uplink,0,2495,0,2495,empty payloads_b139.csv; dropped 453 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261012,capture_001_20261012_212051,uplink,0,1646,0,1646,empty payloads_b139.csv; dropped 1132 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261012,capture_002_20261012_210357,uplink,0,2315,0,2315,empty payloads_b139.csv; dropped 556 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261012,capture_000_20261012_200341,downlink,126,1599,24,1701,4G: 3288 rows share a timestamp within 4G -> max; 5G: 4210 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261012,capture_000_20261012_201345,downlink,132,353,8,477,4G: 4412 rows share a timestamp within 4G -> max; 5G: 1189 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261012,capture_000_20261012_203046,downlink,79,721,14,786,4G: 2368 rows share a timestamp within 4G -> max; 5G: 2614 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261012,capture_000_20261012_204819,downlink,81,731,7,805,4G: 2572 rows share a timestamp within 4G -> max; 5G: 2733 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261012,capture_000_20261012_211310,downlink,74,1611,10,1675,4G: 2144 rows share a timestamp within 4G -> max; 5G: 5770 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261012,capture_001_20261012_202157,downlink,109,832,14,927,4G: 3602 rows share a timestamp within 4G -> max; 5G: 3444 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261012,capture_001_20261012_203856,downlink,60,1184,6,1238,4G: 1649 rows share a timestamp within 4G -> max; 5G: 4118 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261012,capture_001_20261012_205624,downlink,121,1179,18,1282,4G: 4059 rows share a timestamp within 4G -> max; 5G: 3206 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261012,capture_001_20261012_212121,downlink,73,388,6,455,4G: 2389 rows share a timestamp within 4G -> max; 5G: 1219 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261012,capture_002_20261012_210427,downlink,113,712,8,817,4G: 3735 rows share a timestamp within 4G -> max; 5G: 2674 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261012,capture_000_20261012_200341,uplink,530,1482,144,1868,4G: 1936 rows share a timestamp within 4G -> max; dropped 755 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261012,capture_000_20261012_201345,uplink,233,433,7,659,4G: 176 rows share a timestamp within 4G -> max; dropped 338 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261012,capture_000_20261012_203046,uplink,228,787,14,1001,4G: 105 rows share a timestamp within 4G -> max; dropped 405 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261012,capture_000_20261012_204819,uplink,243,824,22,1045,4G: 163 rows share a timestamp within 4G -> max; dropped 378 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261012,capture_000_20261012_211310,uplink,579,1436,408,1607,4G: 4191 rows share a timestamp within 4G -> max; dropped 129 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261012,capture_001_20261012_202157,uplink,272,971,30,1213,4G: 189 rows share a timestamp within 4G -> max; dropped 449 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261012,capture_001_20261012_203856,uplink,331,1060,15,1376,4G: 1193 rows share a timestamp within 4G -> max; dropped 307 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261012,capture_001_20261012_205624,uplink,449,1253,52,1650,4G: 1563 rows share a timestamp within 4G -> max; dropped 178 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261012,capture_001_20261012_212121,uplink,170,411,7,574,4G: 76 rows share a timestamp within 4G -> max; dropped 380 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261012,capture_002_20261012_210427,uplink,183,816,7,992,4G: 52 rows share a timestamp within 4G -> max; dropped 374 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_001_20261017_173225,downlink,175,1194,31,1338,4G: 5107 rows share a timestamp within 4G -> max; 5G: 4284 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_002_20261017_174034,downlink,238,1366,41,1563,4G: 7191 rows share a timestamp within 4G -> max; 5G: 5144 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_003_20261017_174826,downlink,230,1193,40,1383,4G: 6930 rows share a timestamp within 4G -> max; 5G: 3099 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_004_20261017_175638,downlink,173,1074,31,1216,4G: 4875 rows share a timestamp within 4G -> max; 5G: 3664 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_005_20261017_180931,downlink,139,1347,18,1468,4G: 3475 rows share a timestamp within 4G -> max; 5G: 4200 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_006_20261017_181729,downlink,134,1187,27,1294,4G: 2828 rows share a timestamp within 4G -> max; 5G: 4298 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_007_20261017_182526,downlink,186,1271,44,1413,4G: 4515 rows share a timestamp within 4G -> max; 5G: 4333 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_008_20261017_183319,downlink,138,1033,21,1150,4G: 3386 rows share a timestamp within 4G -> max; 5G: 2539 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_009_20261017_184616,downlink,177,1271,37,1411,4G: 4450 rows share a timestamp within 4G -> max; 5G: 2215 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_010_20261017_185408,downlink,216,1211,60,1367,4G: 7310 rows share a timestamp within 4G -> max; 5G: 3634 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_001_20261017_173225,uplink,849,1476,0,2325,4G: 3387 rows share a timestamp within 4G -> max; dropped 172 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_002_20261017_174034,uplink,860,1718,743,1835,4G: 3381 rows share a timestamp within 4G -> max; dropped 134 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_003_20261017_174826,uplink,865,1474,0,2339,4G: 3623 rows share a timestamp within 4G -> max; dropped 175 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_004_20261017_175638,uplink,956,1627,35,2548,4G: 3320 rows share a timestamp within 4G -> max; dropped 70 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_005_20261017_180931,uplink,884,1628,0,2512,4G: 5360 rows share a timestamp within 4G -> max; dropped 160 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_006_20261017_181729,uplink,866,1515,0,2381,4G: 5359 rows share a timestamp within 4G -> max; dropped 91 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_007_20261017_182526,uplink,943,1671,4,2610,4G: 4664 rows share a timestamp within 4G -> max; dropped 154 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_008_20261017_183319,uplink,723,1291,0,2014,4G: 4410 rows share a timestamp within 4G -> max; dropped 112 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_009_20261017_184616,uplink,918,1546,0,2464,4G: 5729 rows share a timestamp within 4G -> max; dropped 215 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261017,capture_010_20261017_185408,uplink,798,1508,0,2306,4G: 4858 rows share a timestamp within 4G -> max; dropped 163 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261017,capture_001_20261017_173255,downlink,0,3039,0,3039,empty payloads_b173.csv; 5G: 9839 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261017,capture_002_20261017_174104,downlink,0,2839,0,2839,empty payloads_b173.csv; 5G: 10481 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261017,capture_003_20261017_174856,downlink,0,2856,0,2856,empty payloads_b173.csv; 5G: 9466 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261017,capture_004_20261017_175708,downlink,0,3129,0,3129,empty payloads_b173.csv; 5G: 11270 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261017,capture_005_20261017_181001,downlink,0,2817,0,2817,empty payloads_b173.csv; 5G: 9534 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261017,capture_006_20261017_181759,downlink,0,2769,0,2769,empty payloads_b173.csv; 5G: 9266 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261017,capture_007_20261017_182556,downlink,0,2721,0,2721,empty payloads_b173.csv; 5G: 9709 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261017,capture_008_20261017_183349,downlink,0,2830,0,2830,empty payloads_b173.csv; 5G: 9492 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261017,capture_009_20261017_184646,downlink,0,2718,0,2718,empty payloads_b173.csv; 5G: 8140 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261017,capture_010_20261017_185438,downlink,0,2862,0,2862,empty payloads_b173.csv; 5G: 9244 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261017,capture_001_20261017_173255,uplink,0,2393,0,2393,empty payloads_b139.csv; dropped 726 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261017,capture_002_20261017_174104,uplink,0,2350,0,2350,empty payloads_b139.csv; dropped 356 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261017,capture_003_20261017_174856,uplink,0,2325,0,2325,empty payloads_b139.csv; dropped 515 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261017,capture_004_20261017_175708,uplink,0,2539,0,2539,empty payloads_b139.csv; dropped 538 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261017,capture_005_20261017_181001,uplink,0,2266,0,2266,empty payloads_b139.csv; dropped 451 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261017,capture_006_20261017_181759,uplink,0,2164,0,2164,empty payloads_b139.csv; dropped 677 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261017,capture_007_20261017_182556,uplink,0,2230,0,2230,empty payloads_b139.csv; dropped 487 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261017,capture_008_20261017_183349,uplink,0,2275,0,2275,empty payloads_b139.csv; dropped 424 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261017,capture_009_20261017_184646,uplink,0,2253,0,2253,empty payloads_b139.csv; dropped 599 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261017,capture_010_20261017_185438,uplink,0,2191,0,2191,empty payloads_b139.csv; dropped 512 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_001_20261017_173325,downlink,44,310,3,351,4G: 1474 rows share a timestamp within 4G -> max; 5G: 1526 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_002_20261017_174134,downlink,81,1147,4,1224,4G: 2390 rows share a timestamp within 4G -> max; 5G: 2690 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_003_20261017_174926,downlink,59,1629,6,1682,4G: 1557 rows share a timestamp within 4G -> max; 5G: 5706 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_004_20261017_175738,downlink,67,1044,5,1106,4G: 1602 rows share a timestamp within 4G -> max; 5G: 4250 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_005_20261017_181031,downlink,71,1183,7,1247,4G: 2198 rows share a timestamp within 4G -> max; 5G: 4041 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_006_20261017_181829,downlink,77,871,6,942,4G: 2116 rows share a timestamp within 4G -> max; 5G: 2145 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_007_20261017_182626,downlink,74,1092,18,1148,4G: 2165 rows share a timestamp within 4G -> max; 5G: 2808 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_008_20261017_183419,downlink,100,1306,10,1396,4G: 3313 rows share a timestamp within 4G -> max; 5G: 4441 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_009_20261017_184716,downlink,57,959,3,1013,4G: 1367 rows share a timestamp within 4G -> max; 5G: 1943 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_010_20261017_185508,downlink,45,1319,4,1360,4G: 790 rows share a timestamp within 4G -> max; 5G: 5028 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_001_20261017_173325,uplink,166,220,5,381,4G: 28 rows share a timestamp within 4G -> max; dropped 170 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_002_20261017_174134,uplink,688,1133,9,1812,4G: 847 rows share a timestamp within 4G -> max; dropped 159 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_003_20261017_174926,uplink,595,1442,446,1591,4G: 896 rows share a timestamp within 4G -> max; dropped 112 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_004_20261017_175738,uplink,237,904,23,1118,4G: 49 rows share a timestamp within 4G -> max; dropped 354 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_005_20261017_181031,uplink,312,1128,17,1423,4G: 1154 rows share a timestamp within 4G -> max; dropped 355 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_006_20261017_181829,uplink,461,952,71,1342,4G: 381 rows share a timestamp within 4G -> max; dropped 288 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_007_20261017_182626,uplink,608,1077,259,1426,4G: 611 rows share a timestamp within 4G -> max; dropped 209 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_008_20261017_183419,uplink,545,1225,7,1763,4G: 3923 rows share a timestamp within 4G -> max; dropped 189 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_009_20261017_184716,uplink,540,952,22,1470,4G: 690 rows share a timestamp within 4G -> max; dropped 142 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261017,capture_010_20261017_185508,uplink,311,1173,17,1467,4G: 235 rows share a timestamp within 4G -> max; dropped 316 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261012,capture_000_20261012_213627,downlink,160,2908,20,3048,4G: 5012 rows share a timestamp within 4G -> max; 5G: 11519 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261012,capture_000_20261012_214711,downlink,499,2983,96,3386,4G: 10775 rows share a timestamp within 4G -> max; 5G: 9944 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261012,capture_000_20261012_215833,downlink,153,1907,44,2016,4G: 5577 rows share a timestamp within 4G -> max; 5G: 8265 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261012,capture_000_20261012_221526,downlink,93,1515,14,1594,4G: 2212 rows share a timestamp within 4G -> max; 5G: 3796 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261012,capture_001_20261012_220657,downlink,128,1829,44,1913,4G: 4725 rows share a timestamp within 4G -> max; 5G: 3903 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261012,capture_001_20261012_222342,downlink,119,1744,21,1842,4G: 2852 rows share a timestamp within 4G -> max; 5G: 5465 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261012,capture_000_20261012_213627,uplink,1232,2740,0,3972,4G: 6982 rows share a timestamp within 4G -> max; dropped 152 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261012,capture_000_20261012_214711,uplink,1867,3282,39,5110,4G: 7588 rows share a timestamp within 4G -> max; dropped 973 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261012,capture_000_20261012_215833,uplink,703,2097,354,2446,4G: 632 rows share a timestamp within 4G -> max; dropped 307 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261012,capture_000_20261012_221526,uplink,744,1752,275,2221,4G: 1306 rows share a timestamp within 4G -> max; dropped 203 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261012,capture_001_20261012_220657,uplink,803,1638,0,2441,4G: 1478 rows share a timestamp within 4G -> max; dropped 279 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261012,capture_001_20261012_222342,uplink,866,1718,356,2228,4G: 1687 rows share a timestamp within 4G -> max; dropped 159 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261012,capture_000_20261012_213658,downlink,0,3099,0,3099,empty payloads_b173.csv; 5G: 6769 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261012,capture_000_20261012_214741,downlink,0,3392,0,3392,empty payloads_b173.csv; 5G: 10886 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261012,capture_000_20261012_215903,downlink,0,2650,0,2650,empty payloads_b173.csv; 5G: 10798 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261012,capture_000_20261012_221557,downlink,0,1883,0,1883,empty payloads_b173.csv; 5G: 4575 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261012,capture_001_20261012_220727,downlink,0,2826,0,2826,empty payloads_b173.csv; 5G: 9998 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261012,capture_001_20261012_222412,downlink,0,2431,0,2431,empty payloads_b173.csv; 5G: 5265 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261012,capture_000_20261012_213658,uplink,0,2698,0,2698,empty payloads_b139.csv; dropped 344 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261012,capture_000_20261012_214741,uplink,0,2987,0,2987,empty payloads_b139.csv; dropped 524 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261012,capture_000_20261012_215903,uplink,0,2728,0,2728,empty payloads_b139.csv; dropped 285 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261012,capture_000_20261012_221557,uplink,0,1284,0,1284,empty payloads_b139.csv; dropped 1872 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261012,capture_001_20261012_220727,uplink,0,2263,0,2263,empty payloads_b139.csv; dropped 470 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261012,capture_001_20261012_222412,uplink,0,1898,0,1898,empty payloads_b139.csv; dropped 803 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261012,capture_000_20261012_213728,downlink,85,697,6,776,4G: 2894 rows share a timestamp within 4G -> max; 5G: 2125 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261012,capture_000_20261012_214811,downlink,228,1725,60,1893,4G: 9071 rows share a timestamp within 4G -> max; 5G: 6197 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261012,capture_000_20261012_215933,downlink,231,1192,31,1392,4G: 5118 rows share a timestamp within 4G -> max; 5G: 4821 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261012,capture_000_20261012_221627,downlink,164,1294,22,1436,4G: 5486 rows share a timestamp within 4G -> max; 5G: 4125 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261012,capture_001_20261012_220757,downlink,53,1544,8,1589,4G: 1572 rows share a timestamp within 4G -> max; 5G: 4520 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261012,capture_001_20261012_222442,downlink,100,1287,17,1370,4G: 3131 rows share a timestamp within 4G -> max; 5G: 4491 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261012,capture_000_20261012_213728,uplink,272,832,15,1089,4G: 579 rows share a timestamp within 4G -> max; dropped 289 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261012,capture_000_20261012_214811,uplink,743,1403,34,2112,4G: 4619 rows share a timestamp within 4G -> max; dropped 174 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261012,capture_000_20261012_215933,uplink,458,1203,45,1616,4G: 684 rows share a timestamp within 4G -> max; dropped 328 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261012,capture_000_20261012_221627,uplink,504,1249,46,1707,4G: 2405 rows share a timestamp within 4G -> max; dropped 340 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261012,capture_001_20261012_220757,uplink,355,1480,29,1806,4G: 286 rows share a timestamp within 4G -> max; dropped 531 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261012,capture_001_20261012_222442,uplink,417,1202,61,1558,4G: 227 rows share a timestamp within 4G -> max; dropped 333 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_000_20261011_173640,downlink,109,3226,10,3325,4G: 1748 rows share a timestamp within 4G -> max; 5G: 7376 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261011,capture_000_20261011_174620,downlink,151,2284,27,2408,4G: 3169 rows share a timestamp within 4G -> max; 5G: 6249 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261011,capture_000_20261011_181243,downlink,447,1541,51,1937,4G: 9648 rows share a timestamp within 4G -> max; 5G: 4519 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261011,capture_000_20261011_185145,downlink,290,3109,41,3358,4G: 5767 rows share a timestamp within 4G -> max; 5G: 9095 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261011,capture_000_20261011_191940,downlink,344,3149,29,3464,4G: 7030 rows share a timestamp within 4G -> max; 5G: 5799 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261011,capture_000_20261011_194728,downlink,0,0,0,0,empty payloads_b173.csv; empty payloads_b887.csv
+Airtel,outdoor_Ground,20261011,capture_000_20261011_211406,downlink,0,0,0,0,empty payloads_b173.csv; empty payloads_b887.csv
+Airtel,outdoor_Ground,20261011,capture_001_20261011_175655,downlink,116,2289,30,2375,4G: 2419 rows share a timestamp within 4G -> max; 5G: 4453 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261011,capture_001_20261011_182302,downlink,265,3284,49,3500,4G: 5406 rows share a timestamp within 4G -> max; 5G: 8851 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261011,capture_001_20261011_190410,downlink,237,3428,79,3586,4G: 4606 rows share a timestamp within 4G -> max; 5G: 10215 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261011,capture_001_20261011_193011,downlink,0,0,0,0,empty payloads_b173.csv; empty payloads_b887.csv
+Airtel,outdoor_Ground,20261011,capture_001_20261011_195803,downlink,0,0,0,0,empty payloads_b173.csv; empty payloads_b887.csv
+Airtel,outdoor_Ground,20261011,capture_002_20261011_183606,downlink,242,4135,17,4360,4G: 3006 rows share a timestamp within 4G -> max; 5G: 11342 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261011,capture_000_20261011_173640,uplink,474,5341,24,5791,4G: 2020 rows share a timestamp within 4G -> max; dropped 400 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_000_20261011_174620,uplink,364,3511,191,3684,4G: 479 rows share a timestamp within 4G -> max; dropped 381 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_000_20261011_181243,uplink,1848,2557,430,3975,4G: 7728 rows share a timestamp within 4G -> max; dropped 693 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_000_20261011_185145,uplink,1849,3561,476,4934,4G: 8976 rows share a timestamp within 4G -> max; dropped 388 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_000_20261011_191940,uplink,1752,4538,55,6235,4G: 4035 rows share a timestamp within 4G -> max; dropped 273 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_000_20261011_194728,uplink,0,0,0,0,empty payloads_b139.csv; empty payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_000_20261011_211406,uplink,0,0,0,0,empty payloads_b139.csv; empty payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_001_20261011_175655,uplink,346,3958,76,4228,4G: 317 rows share a timestamp within 4G -> max; dropped 338 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_001_20261011_182302,uplink,1717,3456,0,5173,4G: 8708 rows share a timestamp within 4G -> max; dropped 377 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_001_20261011_190410,uplink,1261,3458,9,4710,4G: 7297 rows share a timestamp within 4G -> max; dropped 352 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_001_20261011_193011,uplink,0,0,0,0,empty payloads_b139.csv; empty payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_001_20261011_195803,uplink,0,0,0,0,empty payloads_b139.csv; empty payloads_b881.csv
+Airtel,outdoor_Ground,20261011,capture_002_20261011_183606,uplink,1468,4604,60,6012,4G: 8029 rows share a timestamp within 4G -> max; dropped 4455 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_000_20261011_173710,downlink,0,3783,0,3783,empty payloads_b173.csv; 5G: 13252 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_000_20261011_174650,downlink,523,0,0,523,4G: 21983 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Jio,outdoor_Ground,20261011,capture_000_20261011_181313,downlink,0,7668,0,7668,empty payloads_b173.csv; 5G: 29753 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_000_20261011_185215,downlink,0,8226,0,8226,empty payloads_b173.csv; 5G: 25803 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_000_20261011_192010,downlink,0,8758,0,8758,empty payloads_b173.csv; 5G: 30475 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_000_20261011_194759,downlink,0,6825,0,6825,empty payloads_b173.csv; 5G: 19916 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_000_20261011_211436,downlink,0,5620,0,5620,empty payloads_b173.csv; 5G: 15853 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_001_20261011_175725,downlink,0,4975,0,4975,empty payloads_b173.csv; 5G: 17845 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_001_20261011_182332,downlink,0,5037,0,5037,empty payloads_b173.csv; 5G: 18604 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_001_20261011_190440,downlink,0,8054,0,8054,empty payloads_b173.csv; 5G: 28620 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_001_20261011_193535,downlink,0,6227,0,6227,empty payloads_b173.csv; 5G: 20512 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_001_20261011_195833,downlink,0,8198,0,8198,empty payloads_b173.csv; 5G: 30058 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_002_20261011_183636,downlink,127,3165,0,3292,4G: 4007 rows share a timestamp within 4G -> max; 5G: 7145 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261011,capture_000_20261011_173710,uplink,0,4539,0,4539,empty payloads_b139.csv; dropped 3589 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_000_20261011_174650,uplink,2152,0,0,2152,4G: 4074 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_000_20261011_181313,uplink,0,9345,0,9345,empty payloads_b139.csv; dropped 2370 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_000_20261011_185215,uplink,0,6493,0,6493,empty payloads_b139.csv; dropped 2693 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_000_20261011_192010,uplink,0,6310,0,6310,empty payloads_b139.csv; dropped 2177 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_000_20261011_194759,uplink,0,7390,0,7390,empty payloads_b139.csv; dropped 5915 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_000_20261011_211436,uplink,0,5896,0,5896,empty payloads_b139.csv; dropped 3026 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_001_20261011_175725,uplink,0,5867,0,5867,empty payloads_b139.csv; dropped 994 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_001_20261011_182332,uplink,0,5462,0,5462,empty payloads_b139.csv; dropped 5950 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_001_20261011_190440,uplink,0,6229,0,6229,empty payloads_b139.csv; dropped 2567 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_001_20261011_193535,uplink,0,5668,0,5668,empty payloads_b139.csv; dropped 6015 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_001_20261011_195833,uplink,0,6945,0,6945,empty payloads_b139.csv; dropped 2326 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261011,capture_002_20261011_183636,uplink,313,3637,0,3950,4G: 284 rows share a timestamp within 4G -> max; dropped 5147 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_173740,downlink,0,0,0,0,empty payloads_b173.csv; empty payloads_b887.csv
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_174720,downlink,690,0,0,690,4G: 28302 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_181343,downlink,167,2595,24,2738,4G: 3925 rows share a timestamp within 4G -> max; 5G: 6853 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_185245,downlink,276,6224,38,6462,4G: 6200 rows share a timestamp within 4G -> max; 5G: 20800 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_192040,downlink,527,4763,63,5227,4G: 11497 rows share a timestamp within 4G -> max; 5G: 16419 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_194829,downlink,267,2605,21,2851,4G: 5352 rows share a timestamp within 4G -> max; 5G: 7347 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_211506,downlink,350,2811,29,3132,4G: 7744 rows share a timestamp within 4G -> max; 5G: 6993 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261011,capture_001_20261011_175755,downlink,607,0,0,607,4G: 25501 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,outdoor_Ground,20261011,capture_001_20261011_182623,downlink,315,6132,74,6373,4G: 7799 rows share a timestamp within 4G -> max; 5G: 18830 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261011,capture_001_20261011_190510,downlink,376,2990,57,3309,4G: 10108 rows share a timestamp within 4G -> max; 5G: 9253 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261011,capture_001_20261011_193605,downlink,1174,0,0,1174,4G: 50202 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,outdoor_Ground,20261011,capture_001_20261011_195903,downlink,1107,0,0,1107,4G: 47245 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,outdoor_Ground,20261011,capture_002_20261011_183927,downlink,401,5731,56,6076,4G: 11024 rows share a timestamp within 4G -> max; 5G: 19527 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_173740,uplink,0,0,0,0,empty payloads_b139.csv; empty payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_174720,uplink,2683,0,0,2683,4G: 9917 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_181343,uplink,1086,2458,417,3127,4G: 7705 rows share a timestamp within 4G -> max; dropped 471 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_185245,uplink,1959,5310,245,7024,4G: 15334 rows share a timestamp within 4G -> max; dropped 845 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_192040,uplink,955,3850,100,4705,4G: 371 rows share a timestamp within 4G -> max; dropped 2355 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_194829,uplink,757,2692,36,3413,4G: 494 rows share a timestamp within 4G -> max; dropped 1968 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_000_20261011_211506,uplink,1255,3015,116,4154,4G: 2593 rows share a timestamp within 4G -> max; dropped 1427 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_001_20261011_175755,uplink,2138,0,0,2138,4G: 9925 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_001_20261011_182623,uplink,1905,5113,223,6795,4G: 15501 rows share a timestamp within 4G -> max; dropped 1104 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_001_20261011_190510,uplink,1083,2892,177,3798,4G: 5966 rows share a timestamp within 4G -> max; dropped 1273 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_001_20261011_193605,uplink,4083,0,0,4083,4G: 7490 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_001_20261011_195903,uplink,2881,0,0,2881,4G: 11189 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,outdoor_Ground,20261011,capture_002_20261011_183927,uplink,2157,4916,337,6736,4G: 16097 rows share a timestamp within 4G -> max; dropped 1162 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_132854,downlink,274,3119,53,3340,4G: 7105 rows share a timestamp within 4G -> max; 5G: 11108 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_133747,downlink,320,3153,65,3408,4G: 7713 rows share a timestamp within 4G -> max; 5G: 10206 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_140626,downlink,278,2858,53,3083,4G: 6198 rows share a timestamp within 4G -> max; 5G: 9875 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_143608,downlink,393,3314,68,3639,4G: 10633 rows share a timestamp within 4G -> max; 5G: 12202 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_174252,downlink,199,1601,42,1758,4G: 4206 rows share a timestamp within 4G -> max; 5G: 4666 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_175404,downlink,198,1419,44,1573,4G: 5580 rows share a timestamp within 4G -> max; 5G: 3831 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_180417,downlink,205,1308,37,1476,4G: 5129 rows share a timestamp within 4G -> max; 5G: 3883 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261012,capture_001_20261012_134607,downlink,283,3051,48,3286,4G: 7942 rows share a timestamp within 4G -> max; 5G: 10586 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261012,capture_001_20261012_141446,downlink,220,3620,43,3797,4G: 4374 rows share a timestamp within 4G -> max; 5G: 11803 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261012,capture_002_20261012_135427,downlink,180,2637,23,2794,4G: 4704 rows share a timestamp within 4G -> max; 5G: 8813 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_132854,uplink,1413,3890,343,4960,4G: 6317 rows share a timestamp within 4G -> max; dropped 163 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_133747,uplink,1577,3996,332,5241,4G: 7680 rows share a timestamp within 4G -> max; dropped 86 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_140626,uplink,1338,3943,623,4658,4G: 5611 rows share a timestamp within 4G -> max; dropped 324 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_143608,uplink,1566,3689,274,4981,4G: 7604 rows share a timestamp within 4G -> max; dropped 102 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_174252,uplink,1125,2162,0,3287,4G: 4344 rows share a timestamp within 4G -> max; dropped 160 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_175404,uplink,842,1645,721,1766,4G: 4946 rows share a timestamp within 4G -> max; dropped 423 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261012,capture_000_20261012_180417,uplink,1037,2055,0,3092,4G: 4848 rows share a timestamp within 4G -> max; dropped 171 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261012,capture_001_20261012_134607,uplink,1254,3906,136,5024,4G: 6432 rows share a timestamp within 4G -> max; dropped 94 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261012,capture_001_20261012_141446,uplink,971,5033,204,5800,4G: 4906 rows share a timestamp within 4G -> max; dropped 113 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261012,capture_002_20261012_135427,uplink,855,4703,395,5163,4G: 2658 rows share a timestamp within 4G -> max; dropped 117 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_132924,downlink,0,6585,0,6585,empty payloads_b173.csv; 5G: 23809 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_133817,downlink,0,5824,0,5824,empty payloads_b173.csv; 5G: 19842 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_140656,downlink,0,5971,0,5971,empty payloads_b173.csv; 5G: 20904 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_143638,downlink,0,5620,0,5620,empty payloads_b173.csv; 5G: 19408 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_174322,downlink,0,4513,0,4513,empty payloads_b173.csv; 5G: 16299 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_175434,downlink,0,4585,0,4585,empty payloads_b173.csv; 5G: 16424 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_180447,downlink,0,3145,0,3145,empty payloads_b173.csv; 5G: 12190 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261012,capture_001_20261012_134637,downlink,0,5711,0,5711,empty payloads_b173.csv; 5G: 21003 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261012,capture_001_20261012_141516,downlink,0,5815,0,5815,empty payloads_b173.csv; 5G: 21046 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261012,capture_002_20261012_135457,downlink,0,5622,0,5622,empty payloads_b173.csv; 5G: 18982 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_132924,uplink,0,4666,0,4666,empty payloads_b139.csv; dropped 1545 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_133817,uplink,0,4521,0,4521,empty payloads_b139.csv; dropped 1342 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_140656,uplink,0,4496,0,4496,empty payloads_b139.csv; dropped 1393 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_143638,uplink,0,5575,0,5575,empty payloads_b139.csv; dropped 1106 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_174322,uplink,0,3073,0,3073,empty payloads_b139.csv; dropped 1521 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_175434,uplink,0,3180,0,3180,empty payloads_b139.csv; dropped 1373 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261012,capture_000_20261012_180447,uplink,0,2320,0,2320,empty payloads_b139.csv; dropped 674 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261012,capture_001_20261012_134637,uplink,0,4191,0,4191,empty payloads_b139.csv; dropped 1480 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261012,capture_001_20261012_141516,uplink,0,4606,0,4606,empty payloads_b139.csv; dropped 1105 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261012,capture_002_20261012_135457,uplink,0,4317,0,4317,empty payloads_b139.csv; dropped 1266 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_132954,downlink,103,2336,9,2430,4G: 2384 rows share a timestamp within 4G -> max; 5G: 5575 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_133847,downlink,104,2304,6,2402,4G: 2506 rows share a timestamp within 4G -> max; 5G: 5806 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_140726,downlink,184,3160,32,3312,4G: 5841 rows share a timestamp within 4G -> max; 5G: 13218 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_143708,downlink,178,2729,22,2885,4G: 5209 rows share a timestamp within 4G -> max; 5G: 9265 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_174352,downlink,98,2404,2,2500,4G: 2157 rows share a timestamp within 4G -> max; 5G: 6122 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_175504,downlink,171,3392,30,3533,4G: 5387 rows share a timestamp within 4G -> max; 5G: 12481 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_180517,downlink,95,2050,23,2122,4G: 2338 rows share a timestamp within 4G -> max; 5G: 5010 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261012,capture_001_20261012_134707,downlink,254,3098,52,3300,4G: 9299 rows share a timestamp within 4G -> max; 5G: 11732 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261012,capture_001_20261012_141546,downlink,108,2367,6,2469,4G: 2366 rows share a timestamp within 4G -> max; 5G: 5584 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261012,capture_002_20261012_135527,downlink,155,2106,17,2244,4G: 4567 rows share a timestamp within 4G -> max; 5G: 6521 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_132954,uplink,1044,2213,27,3230,4G: 1368 rows share a timestamp within 4G -> max; dropped 515 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_133847,uplink,1133,2215,30,3318,4G: 1536 rows share a timestamp within 4G -> max; dropped 316 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_140726,uplink,1160,2771,316,3615,4G: 978 rows share a timestamp within 4G -> max; dropped 437 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_143708,uplink,958,2574,64,3468,4G: 954 rows share a timestamp within 4G -> max; dropped 564 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_174352,uplink,1098,2201,17,3282,4G: 1620 rows share a timestamp within 4G -> max; dropped 540 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_175504,uplink,1425,2647,185,3887,4G: 1618 rows share a timestamp within 4G -> max; dropped 568 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261012,capture_000_20261012_180517,uplink,972,1901,592,2281,4G: 1220 rows share a timestamp within 4G -> max; dropped 399 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261012,capture_001_20261012_134707,uplink,1037,2613,555,3095,4G: 7475 rows share a timestamp within 4G -> max; dropped 315 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261012,capture_001_20261012_141546,uplink,1122,2174,375,2921,4G: 1618 rows share a timestamp within 4G -> max; dropped 368 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261012,capture_002_20261012_135527,uplink,872,2048,327,2593,4G: 836 rows share a timestamp within 4G -> max; dropped 426 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261013,capture_000_20261013_092654,downlink,381,2583,84,2880,4G: 8455 rows share a timestamp within 4G -> max; 5G: 2723 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261013,capture_000_20261013_093651,downlink,96,1703,35,1764,4G: 1881 rows share a timestamp within 4G -> max; 5G: 4842 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261013,capture_000_20261013_101025,downlink,102,1686,16,1772,4G: 2206 rows share a timestamp within 4G -> max; 5G: 5300 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261013,capture_000_20261013_104847,downlink,139,1654,24,1769,4G: 3488 rows share a timestamp within 4G -> max; 5G: 4470 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261013,capture_001_20261013_094529,downlink,75,1605,12,1668,4G: 1317 rows share a timestamp within 4G -> max; 5G: 4315 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261013,capture_001_20261013_101835,downlink,114,1675,38,1751,4G: 2510 rows share a timestamp within 4G -> max; 5G: 4937 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261013,capture_001_20261013_105720,downlink,48,1944,16,1976,4G: 839 rows share a timestamp within 4G -> max; 5G: 5686 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261013,capture_002_20261013_095415,downlink,91,1799,12,1878,4G: 1970 rows share a timestamp within 4G -> max; 5G: 6331 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261013,capture_002_20261013_102715,downlink,152,1725,30,1847,4G: 4035 rows share a timestamp within 4G -> max; 5G: 5855 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261013,capture_003_20261013_103529,downlink,124,1723,20,1827,4G: 2500 rows share a timestamp within 4G -> max; 5G: 5889 rows share a timestamp within 5G -> max
+Airtel,indoor_Bharti501,20261013,capture_000_20261013_092654,uplink,1369,2504,0,3873,4G: 8392 rows share a timestamp within 4G -> max; dropped 192 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261013,capture_000_20261013_093651,uplink,848,1543,174,2217,4G: 5064 rows share a timestamp within 4G -> max; dropped 135 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261013,capture_000_20261013_101025,uplink,660,1508,623,1545,4G: 4358 rows share a timestamp within 4G -> max; dropped 129 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261013,capture_000_20261013_104847,uplink,771,1524,210,2085,4G: 4534 rows share a timestamp within 4G -> max; dropped 166 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261013,capture_001_20261013_094529,uplink,778,1783,16,2545,4G: 1502 rows share a timestamp within 4G -> max; dropped 190 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261013,capture_001_20261013_101835,uplink,747,1461,0,2208,4G: 4896 rows share a timestamp within 4G -> max; dropped 126 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261013,capture_001_20261013_105720,uplink,610,1653,0,2263,4G: 4291 rows share a timestamp within 4G -> max; dropped 262 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261013,capture_002_20261013_095415,uplink,692,1629,0,2321,4G: 4344 rows share a timestamp within 4G -> max; dropped 113 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261013,capture_002_20261013_102715,uplink,764,1519,0,2283,4G: 4854 rows share a timestamp within 4G -> max; dropped 111 unparsable rows in payloads_b881.csv
+Airtel,indoor_Bharti501,20261013,capture_003_20261013_103529,uplink,881,1686,0,2567,4G: 5332 rows share a timestamp within 4G -> max; dropped 115 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261013,capture_000_20261013_092724,downlink,0,4426,0,4426,empty payloads_b173.csv; 5G: 15932 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261013,capture_000_20261013_093721,downlink,0,2884,0,2884,empty payloads_b173.csv; 5G: 9875 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261013,capture_000_20261013_101055,downlink,0,2917,0,2917,empty payloads_b173.csv; 5G: 9810 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261013,capture_000_20261013_104917,downlink,0,2392,0,2392,empty payloads_b173.csv; 5G: 9095 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261013,capture_001_20261013_094559,downlink,0,3078,0,3078,empty payloads_b173.csv; 5G: 10296 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261013,capture_001_20261013_101905,downlink,0,3147,0,3147,empty payloads_b173.csv; 5G: 11485 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261013,capture_001_20261013_105750,downlink,0,2549,0,2549,empty payloads_b173.csv; 5G: 8432 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261013,capture_002_20261013_095445,downlink,0,2601,0,2601,empty payloads_b173.csv; 5G: 8482 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261013,capture_002_20261013_102745,downlink,0,2951,0,2951,empty payloads_b173.csv; 5G: 10054 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261013,capture_003_20261013_103559,downlink,0,2867,0,2867,empty payloads_b173.csv; 5G: 10658 rows share a timestamp within 5G -> max
+Jio,indoor_Bharti501,20261013,capture_000_20261013_092724,uplink,0,3391,0,3391,empty payloads_b139.csv; dropped 1060 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261013,capture_000_20261013_093721,uplink,0,2237,0,2237,empty payloads_b139.csv; dropped 579 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261013,capture_000_20261013_101055,uplink,0,1931,0,1931,empty payloads_b139.csv; dropped 881 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261013,capture_000_20261013_104917,uplink,0,2424,0,2424,empty payloads_b139.csv; dropped 780 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261013,capture_001_20261013_094559,uplink,0,2505,0,2505,empty payloads_b139.csv; dropped 693 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261013,capture_001_20261013_101905,uplink,0,2152,0,2152,empty payloads_b139.csv; dropped 938 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261013,capture_001_20261013_105750,uplink,0,2637,0,2637,empty payloads_b139.csv; dropped 1276 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261013,capture_002_20261013_095445,uplink,0,2651,0,2651,empty payloads_b139.csv; dropped 934 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261013,capture_002_20261013_102745,uplink,0,2112,0,2112,empty payloads_b139.csv; dropped 856 unparsable rows in payloads_b881.csv
+Jio,indoor_Bharti501,20261013,capture_003_20261013_103559,uplink,0,2965,0,2965,empty payloads_b139.csv; dropped 991 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261013,capture_000_20261013_092754,downlink,930,0,0,930,4G: 20817 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_Bharti501,20261013,capture_000_20261013_093751,downlink,555,0,0,555,4G: 12264 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_Bharti501,20261013,capture_000_20261013_101125,downlink,82,1273,5,1350,4G: 2205 rows share a timestamp within 4G -> max; 5G: 3928 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261013,capture_000_20261013_104947,downlink,118,1260,22,1356,4G: 3885 rows share a timestamp within 4G -> max; 5G: 4180 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261013,capture_001_20261013_094629,downlink,530,0,0,530,4G: 11604 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_Bharti501,20261013,capture_001_20261013_101935,downlink,520,23,0,543,4G: 16539 rows share a timestamp within 4G -> max; 5G: 73 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261013,capture_001_20261013_105820,downlink,206,255,2,459,4G: 4444 rows share a timestamp within 4G -> max; 5G: 1169 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261013,capture_002_20261013_095515,downlink,560,0,0,560,4G: 18703 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_Bharti501,20261013,capture_002_20261013_102815,downlink,576,0,0,576,4G: 16292 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_Bharti501,20261013,capture_003_20261013_103629,downlink,109,1249,8,1350,4G: 3479 rows share a timestamp within 4G -> max; 5G: 4274 rows share a timestamp within 5G -> max
+Vodafone,indoor_Bharti501,20261013,capture_000_20261013_092754,uplink,1973,0,0,1973,4G: 2360 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_Bharti501,20261013,capture_000_20261013_093751,uplink,1546,0,0,1546,4G: 2154 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_Bharti501,20261013,capture_000_20261013_101125,uplink,180,1242,13,1409,4G: 75 rows share a timestamp within 4G -> max; dropped 318 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261013,capture_000_20261013_104947,uplink,638,1184,404,1418,4G: 4089 rows share a timestamp within 4G -> max; dropped 168 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261013,capture_001_20261013_094629,uplink,1405,0,0,1405,4G: 1932 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_Bharti501,20261013,capture_001_20261013_101935,uplink,1708,19,0,1727,4G: 2548 rows share a timestamp within 4G -> max; dropped 9 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261013,capture_001_20261013_105820,uplink,1045,210,5,1250,4G: 6234 rows share a timestamp within 4G -> max; dropped 111 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Bharti501,20261013,capture_002_20261013_095515,uplink,1630,0,0,1630,4G: 2176 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_Bharti501,20261013,capture_002_20261013_102815,uplink,1465,0,0,1465,4G: 8902 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_Bharti501,20261013,capture_003_20261013_103629,uplink,617,1192,19,1790,4G: 4063 rows share a timestamp within 4G -> max; dropped 178 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261015,capture_001_20261015_092117,downlink,472,313,6,779,4G: 16952 rows share a timestamp within 4G -> max; 5G: 597 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261015,capture_002_20261015_093021,downlink,63,632,1,694,4G: 1025 rows share a timestamp within 4G -> max; 5G: 717 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261015,capture_003_20261015_093827,downlink,90,727,8,809,4G: 1687 rows share a timestamp within 4G -> max; 5G: 1647 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261015,capture_004_20261015_094651,downlink,112,624,6,730,4G: 2272 rows share a timestamp within 4G -> max; 5G: 1191 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261015,capture_005_20261015_100023,downlink,63,382,0,445,4G: 712 rows share a timestamp within 4G -> max; 5G: 282 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261015,capture_006_20261015_100848,downlink,238,0,0,238,4G: 4820 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Airtel,indoor_AzadApt,20261015,capture_007_20261015_101711,downlink,64,490,0,554,4G: 2096 rows share a timestamp within 4G -> max; 5G: 498 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261015,capture_008_20261015_102532,downlink,104,476,8,572,4G: 2020 rows share a timestamp within 4G -> max; 5G: 965 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261015,capture_009_20261015_103850,downlink,56,440,2,494,4G: 1398 rows share a timestamp within 4G -> max; 5G: 608 rows share a timestamp within 5G -> max
+Airtel,indoor_AzadApt,20261015,capture_001_20261015_092117,uplink,1368,576,12,1932,4G: 4196 rows share a timestamp within 4G -> max; dropped 190 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261015,capture_002_20261015_093021,uplink,722,1151,151,1722,4G: 5052 rows share a timestamp within 4G -> max; dropped 517 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261015,capture_003_20261015_093827,uplink,783,1123,161,1745,4G: 4819 rows share a timestamp within 4G -> max; dropped 442 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261015,capture_004_20261015_094651,uplink,759,839,162,1436,4G: 5440 rows share a timestamp within 4G -> max; dropped 721 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261015,capture_005_20261015_100023,uplink,1163,806,31,1938,4G: 7601 rows share a timestamp within 4G -> max; dropped 414 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261015,capture_006_20261015_100848,uplink,1436,0,0,1436,4G: 8726 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Airtel,indoor_AzadApt,20261015,capture_007_20261015_101711,uplink,657,862,13,1506,4G: 3927 rows share a timestamp within 4G -> max; dropped 428 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261015,capture_008_20261015_102532,uplink,951,809,62,1698,4G: 7782 rows share a timestamp within 4G -> max; dropped 624 unparsable rows in payloads_b881.csv
+Airtel,indoor_AzadApt,20261015,capture_009_20261015_103850,uplink,622,780,2,1400,4G: 4133 rows share a timestamp within 4G -> max; dropped 697 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261015,capture_001_20261015_092147,downlink,0,2924,0,2924,empty payloads_b173.csv; 5G: 9650 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261015,capture_002_20261015_093051,downlink,0,2799,0,2799,empty payloads_b173.csv; 5G: 9267 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261015,capture_003_20261015_093857,downlink,0,2877,0,2877,empty payloads_b173.csv; 5G: 9737 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261015,capture_004_20261015_094721,downlink,0,2737,0,2737,empty payloads_b173.csv; 5G: 9719 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261015,capture_005_20261015_100053,downlink,0,2665,0,2665,empty payloads_b173.csv; 5G: 9088 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261015,capture_006_20261015_100918,downlink,0,2991,0,2991,empty payloads_b173.csv; 5G: 10267 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261015,capture_007_20261015_101741,downlink,0,2961,0,2961,empty payloads_b173.csv; 5G: 9952 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261015,capture_008_20261015_102602,downlink,0,2736,0,2736,empty payloads_b173.csv; 5G: 9562 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261015,capture_009_20261015_103920,downlink,0,3126,0,3126,empty payloads_b173.csv; 5G: 11663 rows share a timestamp within 5G -> max
+Jio,indoor_AzadApt,20261015,capture_001_20261015_092147,uplink,0,2471,0,2471,empty payloads_b139.csv; dropped 473 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261015,capture_002_20261015_093051,uplink,0,2449,0,2449,empty payloads_b139.csv; dropped 358 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261015,capture_003_20261015_093857,uplink,0,2495,0,2495,empty payloads_b139.csv; dropped 263 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261015,capture_004_20261015_094721,uplink,0,2319,0,2319,empty payloads_b139.csv; dropped 483 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261015,capture_005_20261015_100053,uplink,0,2335,0,2335,empty payloads_b139.csv; dropped 466 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261015,capture_006_20261015_100918,uplink,0,2541,0,2541,empty payloads_b139.csv; dropped 455 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261015,capture_007_20261015_101741,uplink,0,2636,0,2636,empty payloads_b139.csv; dropped 414 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261015,capture_008_20261015_102602,uplink,0,2294,0,2294,empty payloads_b139.csv; dropped 458 unparsable rows in payloads_b881.csv
+Jio,indoor_AzadApt,20261015,capture_009_20261015_103920,uplink,0,2686,0,2686,empty payloads_b139.csv; dropped 369 unparsable rows in payloads_b881.csv
+Vodafone,indoor_AzadApt,20261015,capture_001_20261015_092217,downlink,575,0,0,575,4G: 13171 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261015,capture_002_20261015_093121,downlink,201,0,0,201,4G: 6343 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261015,capture_003_20261015_093927,downlink,97,0,0,97,4G: 2313 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261015,capture_004_20261015_094751,downlink,120,0,0,120,4G: 1871 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261015,capture_005_20261015_100123,downlink,271,0,0,271,4G: 7432 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261015,capture_006_20261015_100948,downlink,363,0,0,363,4G: 9481 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261015,capture_007_20261015_101811,downlink,341,0,0,341,4G: 7221 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261015,capture_008_20261015_102632,downlink,223,0,0,223,4G: 5402 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261015,capture_009_20261015_103950,downlink,400,0,0,400,4G: 12599 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,indoor_AzadApt,20261015,capture_001_20261015_092217,uplink,1021,0,0,1021,4G: 1255 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261015,capture_002_20261015_093121,uplink,794,0,0,794,4G: 4426 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261015,capture_003_20261015_093927,uplink,1302,0,0,1302,4G: 9316 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261015,capture_004_20261015_094751,uplink,2278,0,0,2278,4G: 18807 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261015,capture_005_20261015_100123,uplink,1473,0,0,1473,4G: 11064 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261015,capture_006_20261015_100948,uplink,1667,0,0,1667,4G: 13844 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261015,capture_007_20261015_101811,uplink,1555,0,0,1555,4G: 9779 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261015,capture_008_20261015_102632,uplink,1515,0,0,1515,4G: 8921 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,indoor_AzadApt,20261015,capture_009_20261015_103950,uplink,1586,0,0,1586,4G: 12293 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Airtel,indoor_BlueTokai,20261013,capture_000_20261013_121048,downlink,184,1319,29,1474,4G: 6316 rows share a timestamp within 4G -> max; 5G: 3822 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261013,capture_000_20261013_122153,downlink,183,1411,40,1554,4G: 4998 rows share a timestamp within 4G -> max; 5G: 4912 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261013,capture_000_20261013_125548,downlink,88,1687,19,1756,4G: 2871 rows share a timestamp within 4G -> max; 5G: 4496 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261013,capture_000_20261013_132035,downlink,84,1579,11,1652,4G: 1745 rows share a timestamp within 4G -> max; 5G: 5443 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261013,capture_001_20261013_123014,downlink,56,1214,8,1262,4G: 1353 rows share a timestamp within 4G -> max; 5G: 2920 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261013,capture_001_20261013_130356,downlink,60,1587,17,1630,4G: 2107 rows share a timestamp within 4G -> max; 5G: 4583 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261013,capture_001_20261013_132856,downlink,135,1219,23,1331,4G: 2689 rows share a timestamp within 4G -> max; 5G: 2851 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261013,capture_002_20261013_123831,downlink,122,1202,24,1300,4G: 4444 rows share a timestamp within 4G -> max; 5G: 2614 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261013,capture_002_20261013_131209,downlink,46,1641,8,1679,4G: 1300 rows share a timestamp within 4G -> max; 5G: 5518 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261013,capture_003_20261013_124645,downlink,119,1633,16,1736,4G: 2683 rows share a timestamp within 4G -> max; 5G: 3193 rows share a timestamp within 5G -> max
+Airtel,indoor_BlueTokai,20261013,capture_000_20261013_121048,uplink,891,1857,3,2745,4G: 4429 rows share a timestamp within 4G -> max; dropped 45 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261013,capture_000_20261013_122153,uplink,745,1684,714,1715,4G: 3202 rows share a timestamp within 4G -> max; dropped 30 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261013,capture_000_20261013_125548,uplink,674,2073,10,2737,4G: 3328 rows share a timestamp within 4G -> max; dropped 104 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261013,capture_000_20261013_132035,uplink,673,1879,571,1981,4G: 2774 rows share a timestamp within 4G -> max; dropped 98 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261013,capture_001_20261013_123014,uplink,499,2018,13,2504,4G: 1167 rows share a timestamp within 4G -> max; dropped 271 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261013,capture_001_20261013_130356,uplink,217,2144,180,2181,4G: 576 rows share a timestamp within 4G -> max; dropped 480 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261013,capture_001_20261013_132856,uplink,644,1643,3,2284,4G: 3042 rows share a timestamp within 4G -> max; dropped 156 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261013,capture_002_20261013_123831,uplink,882,1781,2,2661,4G: 4218 rows share a timestamp within 4G -> max; dropped 132 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261013,capture_002_20261013_131209,uplink,293,2357,1,2649,4G: 683 rows share a timestamp within 4G -> max; dropped 111 unparsable rows in payloads_b881.csv
+Airtel,indoor_BlueTokai,20261013,capture_003_20261013_124645,uplink,740,1808,0,2548,4G: 4049 rows share a timestamp within 4G -> max; dropped 108 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261013,capture_000_20261013_121118,downlink,0,2703,0,2703,empty payloads_b173.csv; 5G: 8467 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261013,capture_000_20261013_122223,downlink,0,2918,0,2918,empty payloads_b173.csv; 5G: 9553 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261013,capture_000_20261013_125618,downlink,0,2790,0,2790,empty payloads_b173.csv; 5G: 8625 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261013,capture_000_20261013_132105,downlink,0,2816,0,2816,empty payloads_b173.csv; 5G: 9227 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261013,capture_001_20261013_123044,downlink,0,2878,0,2878,empty payloads_b173.csv; 5G: 9713 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261013,capture_001_20261013_130426,downlink,0,2799,0,2799,empty payloads_b173.csv; 5G: 9363 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261013,capture_001_20261013_132926,downlink,0,2504,0,2504,empty payloads_b173.csv; 5G: 7241 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261013,capture_002_20261013_123901,downlink,0,2746,0,2746,empty payloads_b173.csv; 5G: 8743 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261013,capture_002_20261013_131239,downlink,0,2675,0,2675,empty payloads_b173.csv; 5G: 7764 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261013,capture_003_20261013_124715,downlink,0,2619,0,2619,empty payloads_b173.csv; 5G: 8730 rows share a timestamp within 5G -> max
+Jio,indoor_BlueTokai,20261013,capture_000_20261013_121118,uplink,0,2254,0,2254,empty payloads_b139.csv; dropped 567 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261013,capture_000_20261013_122223,uplink,0,2300,0,2300,empty payloads_b139.csv; dropped 535 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261013,capture_000_20261013_125618,uplink,0,2192,0,2192,empty payloads_b139.csv; dropped 648 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261013,capture_000_20261013_132105,uplink,0,2241,0,2241,empty payloads_b139.csv; dropped 416 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261013,capture_001_20261013_123044,uplink,0,2317,0,2317,empty payloads_b139.csv; dropped 586 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261013,capture_001_20261013_130426,uplink,0,2241,0,2241,empty payloads_b139.csv; dropped 424 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261013,capture_001_20261013_132926,uplink,0,2035,0,2035,empty payloads_b139.csv; dropped 560 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261013,capture_002_20261013_123901,uplink,0,2104,0,2104,empty payloads_b139.csv; dropped 527 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261013,capture_002_20261013_131239,uplink,0,2218,0,2218,empty payloads_b139.csv; dropped 583 unparsable rows in payloads_b881.csv
+Jio,indoor_BlueTokai,20261013,capture_003_20261013_124715,uplink,0,2152,0,2152,empty payloads_b139.csv; dropped 408 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261013,capture_000_20261013_121148,downlink,117,1068,12,1173,4G: 3876 rows share a timestamp within 4G -> max; 5G: 1932 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261013,capture_000_20261013_122253,downlink,111,1340,9,1442,4G: 3620 rows share a timestamp within 4G -> max; 5G: 3317 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261013,capture_000_20261013_125648,downlink,63,1069,4,1128,4G: 1774 rows share a timestamp within 4G -> max; 5G: 3026 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261013,capture_000_20261013_132135,downlink,84,942,9,1017,4G: 2347 rows share a timestamp within 4G -> max; 5G: 3421 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261013,capture_001_20261013_123114,downlink,97,1037,22,1112,4G: 2825 rows share a timestamp within 4G -> max; 5G: 2632 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261013,capture_001_20261013_130456,downlink,87,1144,7,1224,4G: 2532 rows share a timestamp within 4G -> max; 5G: 3080 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261013,capture_001_20261013_132956,downlink,157,1047,18,1186,4G: 5652 rows share a timestamp within 4G -> max; 5G: 2883 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261013,capture_002_20261013_123931,downlink,122,1073,16,1179,4G: 3604 rows share a timestamp within 4G -> max; 5G: 3127 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261013,capture_002_20261013_131309,downlink,76,1695,12,1759,4G: 2314 rows share a timestamp within 4G -> max; 5G: 6362 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261013,capture_003_20261013_124745,downlink,121,1007,13,1115,4G: 3241 rows share a timestamp within 4G -> max; 5G: 2441 rows share a timestamp within 5G -> max
+Vodafone,indoor_BlueTokai,20261013,capture_000_20261013_121148,uplink,550,992,104,1438,4G: 3416 rows share a timestamp within 4G -> max; dropped 151 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261013,capture_000_20261013_122253,uplink,618,1277,361,1534,4G: 3437 rows share a timestamp within 4G -> max; dropped 283 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261013,capture_000_20261013_125648,uplink,521,1061,10,1572,4G: 3613 rows share a timestamp within 4G -> max; dropped 165 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261013,capture_000_20261013_132135,uplink,210,1060,18,1252,4G: 308 rows share a timestamp within 4G -> max; dropped 386 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261013,capture_001_20261013_123114,uplink,523,1007,21,1509,4G: 3124 rows share a timestamp within 4G -> max; dropped 230 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261013,capture_001_20261013_130456,uplink,571,1062,10,1623,4G: 3894 rows share a timestamp within 4G -> max; dropped 252 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261013,capture_001_20261013_132956,uplink,588,981,148,1421,4G: 3565 rows share a timestamp within 4G -> max; dropped 185 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261013,capture_002_20261013_123931,uplink,320,1119,142,1297,4G: 1249 rows share a timestamp within 4G -> max; dropped 325 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261013,capture_002_20261013_131309,uplink,536,1481,18,1999,4G: 3783 rows share a timestamp within 4G -> max; dropped 154 unparsable rows in payloads_b881.csv
+Vodafone,indoor_BlueTokai,20261013,capture_003_20261013_124745,uplink,564,976,12,1528,4G: 3393 rows share a timestamp within 4G -> max; dropped 203 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_001_20261018_222840,downlink,166,2033,45,2154,4G: 4325 rows share a timestamp within 4G -> max; 5G: 3380 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_002_20261018_223640,downlink,113,1083,10,1186,4G: 2858 rows share a timestamp within 4G -> max; 5G: 936 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_003_20261018_224442,downlink,153,981,18,1116,4G: 4046 rows share a timestamp within 4G -> max; 5G: 673 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_004_20261018_225233,downlink,147,1086,10,1223,4G: 3587 rows share a timestamp within 4G -> max; 5G: 1063 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_005_20261018_230531,downlink,115,1302,15,1402,4G: 2815 rows share a timestamp within 4G -> max; 5G: 1755 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_006_20261018_231326,downlink,189,1322,33,1478,4G: 6847 rows share a timestamp within 4G -> max; 5G: 1748 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_007_20261018_232124,downlink,179,1332,45,1466,4G: 4702 rows share a timestamp within 4G -> max; 5G: 2077 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_008_20261018_232925,downlink,184,1190,27,1347,4G: 4958 rows share a timestamp within 4G -> max; 5G: 987 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_009_20261018_234229,downlink,172,1178,27,1323,4G: 4175 rows share a timestamp within 4G -> max; 5G: 1878 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_010_20261018_235038,downlink,161,1383,56,1488,4G: 4470 rows share a timestamp within 4G -> max; 5G: 2479 rows share a timestamp within 5G -> max
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_001_20261018_222840,uplink,1561,2406,0,3967,4G: 7459 rows share a timestamp within 4G -> max; dropped 632 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_002_20261018_223640,uplink,927,1595,424,2098,4G: 4595 rows share a timestamp within 4G -> max; dropped 357 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_003_20261018_224442,uplink,968,1487,0,2455,4G: 5276 rows share a timestamp within 4G -> max; dropped 436 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_004_20261018_225233,uplink,862,1652,275,2239,4G: 4073 rows share a timestamp within 4G -> max; dropped 417 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_005_20261018_230531,uplink,812,1514,0,2326,4G: 4472 rows share a timestamp within 4G -> max; dropped 248 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_006_20261018_231326,uplink,964,1452,2,2414,4G: 5771 rows share a timestamp within 4G -> max; dropped 405 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_007_20261018_232124,uplink,953,1619,0,2572,4G: 6127 rows share a timestamp within 4G -> max; dropped 147 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_008_20261018_232925,uplink,899,1605,0,2504,4G: 5561 rows share a timestamp within 4G -> max; dropped 288 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_009_20261018_234229,uplink,856,1579,0,2435,4G: 4991 rows share a timestamp within 4G -> max; dropped 169 unparsable rows in payloads_b881.csv
+Airtel,indoor_Shubham_JiaSarai,20261018,capture_010_20261018_235038,uplink,867,1640,0,2507,4G: 5199 rows share a timestamp within 4G -> max; dropped 205 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261018,capture_001_20261018_222910,downlink,0,4270,0,4270,empty payloads_b173.csv; 5G: 14577 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261018,capture_002_20261018_223710,downlink,0,3213,0,3213,empty payloads_b173.csv; 5G: 10622 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261018,capture_003_20261018_224512,downlink,0,2876,0,2876,empty payloads_b173.csv; 5G: 9819 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261018,capture_004_20261018_225303,downlink,0,2700,0,2700,empty payloads_b173.csv; 5G: 8408 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261018,capture_005_20261018_230601,downlink,0,3090,0,3090,empty payloads_b173.csv; 5G: 9514 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261018,capture_006_20261018_231356,downlink,0,3086,0,3086,empty payloads_b173.csv; 5G: 10792 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261018,capture_007_20261018_232154,downlink,0,2942,0,2942,empty payloads_b173.csv; 5G: 9928 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261018,capture_008_20261018_232955,downlink,0,2992,0,2992,empty payloads_b173.csv; 5G: 10703 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261018,capture_009_20261018_234259,downlink,0,2927,0,2927,empty payloads_b173.csv; 5G: 10566 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261018,capture_010_20261018_235108,downlink,0,2549,0,2549,empty payloads_b173.csv; 5G: 8507 rows share a timestamp within 5G -> max
+Jio,indoor_Shubham_JiaSarai,20261018,capture_001_20261018_222910,uplink,0,3077,0,3077,empty payloads_b139.csv; dropped 1168 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261018,capture_002_20261018_223710,uplink,0,2329,0,2329,empty payloads_b139.csv; dropped 806 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261018,capture_003_20261018_224512,uplink,0,2247,0,2247,empty payloads_b139.csv; dropped 724 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261018,capture_004_20261018_225303,uplink,0,2095,0,2095,empty payloads_b139.csv; dropped 618 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261018,capture_005_20261018_230601,uplink,0,2301,0,2301,empty payloads_b139.csv; dropped 632 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261018,capture_006_20261018_231356,uplink,0,2261,0,2261,empty payloads_b139.csv; dropped 624 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261018,capture_007_20261018_232154,uplink,0,2293,0,2293,empty payloads_b139.csv; dropped 478 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261018,capture_008_20261018_232955,uplink,0,2350,0,2350,empty payloads_b139.csv; dropped 514 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261018,capture_009_20261018_234259,uplink,0,2292,0,2292,empty payloads_b139.csv; dropped 569 unparsable rows in payloads_b881.csv
+Jio,indoor_Shubham_JiaSarai,20261018,capture_010_20261018_235108,uplink,0,1887,0,1887,empty payloads_b139.csv; dropped 789 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_001_20261018_222940,downlink,182,2912,22,3072,4G: 5737 rows share a timestamp within 4G -> max; 5G: 7567 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_002_20261018_223740,downlink,98,1364,11,1451,4G: 2841 rows share a timestamp within 4G -> max; 5G: 3539 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_003_20261018_224542,downlink,63,1248,0,1311,4G: 1348 rows share a timestamp within 4G -> max; 5G: 2596 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_004_20261018_225333,downlink,49,1819,3,1865,4G: 1049 rows share a timestamp within 4G -> max; 5G: 6375 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_005_20261018_230631,downlink,62,1057,1,1118,4G: 1392 rows share a timestamp within 4G -> max; 5G: 2560 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_006_20261018_231426,downlink,56,1660,20,1696,4G: 1112 rows share a timestamp within 4G -> max; 5G: 5123 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_007_20261018_232224,downlink,78,1247,4,1321,4G: 1856 rows share a timestamp within 4G -> max; 5G: 1962 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_008_20261018_233025,downlink,60,1793,12,1841,4G: 1568 rows share a timestamp within 4G -> max; 5G: 6585 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_009_20261018_234329,downlink,75,1961,20,2016,4G: 2060 rows share a timestamp within 4G -> max; 5G: 6827 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_010_20261018_235138,downlink,61,1591,0,1652,4G: 1373 rows share a timestamp within 4G -> max; 5G: 4381 rows share a timestamp within 5G -> max
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_001_20261018_222940,uplink,1294,2496,805,2985,4G: 1404 rows share a timestamp within 4G -> max; dropped 683 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_002_20261018_223740,uplink,579,1337,29,1887,4G: 486 rows share a timestamp within 4G -> max; dropped 329 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_003_20261018_224542,uplink,678,1210,8,1880,4G: 957 rows share a timestamp within 4G -> max; dropped 150 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_004_20261018_225333,uplink,648,1560,33,2175,4G: 978 rows share a timestamp within 4G -> max; dropped 193 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_005_20261018_230631,uplink,606,1042,9,1639,4G: 816 rows share a timestamp within 4G -> max; dropped 260 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_006_20261018_231426,uplink,595,1495,24,2066,4G: 904 rows share a timestamp within 4G -> max; dropped 190 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_007_20261018_232224,uplink,710,1196,9,1897,4G: 942 rows share a timestamp within 4G -> max; dropped 190 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_008_20261018_233025,uplink,598,1630,30,2198,4G: 852 rows share a timestamp within 4G -> max; dropped 147 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_009_20261018_234329,uplink,689,1588,50,2227,4G: 912 rows share a timestamp within 4G -> max; dropped 192 unparsable rows in payloads_b881.csv
+Vodafone,indoor_Shubham_JiaSarai,20261018,capture_010_20261018_235138,uplink,645,1470,14,2101,4G: 954 rows share a timestamp within 4G -> max; dropped 148 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261013,capture_000_20261013_080404,downlink,217,3151,80,3288,4G: 7764 rows share a timestamp within 4G -> max; 5G: 9125 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261013,capture_000_20261013_081251,downlink,107,1581,22,1666,4G: 3431 rows share a timestamp within 4G -> max; 5G: 4756 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261013,capture_000_20261013_083806,downlink,124,1899,24,1999,4G: 4217 rows share a timestamp within 4G -> max; 5G: 5478 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261013,capture_000_20261013_114259,downlink,114,1433,17,1530,4G: 2144 rows share a timestamp within 4G -> max; 5G: 5518 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261013,capture_001_20261013_082114,downlink,126,1527,25,1628,4G: 4688 rows share a timestamp within 4G -> max; 5G: 3379 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261013,capture_001_20261013_115115,downlink,128,1812,23,1917,4G: 4286 rows share a timestamp within 4G -> max; 5G: 2891 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261013,capture_002_20261013_082935,downlink,149,2522,21,2650,4G: 5123 rows share a timestamp within 4G -> max; 5G: 6764 rows share a timestamp within 5G -> max
+Airtel,outdoor_Car,20261013,capture_000_20261013_080404,uplink,1600,3138,1,4737,4G: 2919 rows share a timestamp within 4G -> max; dropped 229 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261013,capture_000_20261013_081251,uplink,773,1767,0,2540,4G: 1106 rows share a timestamp within 4G -> max; dropped 245 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261013,capture_000_20261013_083806,uplink,929,1846,0,2775,4G: 1832 rows share a timestamp within 4G -> max; dropped 159 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261013,capture_000_20261013_114259,uplink,904,1650,48,2506,4G: 2407 rows share a timestamp within 4G -> max; dropped 477 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261013,capture_001_20261013_082114,uplink,692,1783,0,2475,4G: 3720 rows share a timestamp within 4G -> max; dropped 139 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261013,capture_001_20261013_115115,uplink,917,1239,168,1988,4G: 5459 rows share a timestamp within 4G -> max; dropped 1037 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Car,20261013,capture_002_20261013_082935,uplink,1093,2405,0,3498,4G: 1472 rows share a timestamp within 4G -> max; dropped 135 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261013,capture_000_20261013_080434,downlink,0,3787,0,3787,empty payloads_b173.csv; 5G: 12378 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261013,capture_000_20261013_081321,downlink,0,3132,0,3132,empty payloads_b173.csv; 5G: 9596 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261013,capture_000_20261013_083836,downlink,0,2777,0,2777,empty payloads_b173.csv; 5G: 8718 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261013,capture_000_20261013_114329,downlink,332,0,0,332,4G: 9655 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Jio,outdoor_Car,20261013,capture_001_20261013_082144,downlink,0,3151,0,3151,empty payloads_b173.csv; 5G: 11222 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261013,capture_001_20261013_115145,downlink,0,2667,0,2667,empty payloads_b173.csv; 5G: 10282 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261013,capture_002_20261013_083005,downlink,0,2600,0,2600,empty payloads_b173.csv; 5G: 7667 rows share a timestamp within 5G -> max
+Jio,outdoor_Car,20261013,capture_000_20261013_080434,uplink,0,2921,0,2921,empty payloads_b139.csv; dropped 1483 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261013,capture_000_20261013_081321,uplink,0,2633,0,2633,empty payloads_b139.csv; dropped 791 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261013,capture_000_20261013_083836,uplink,0,2507,0,2507,empty payloads_b139.csv; dropped 361 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261013,capture_000_20261013_114329,uplink,1784,0,0,1784,4G: 5031 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Jio,outdoor_Car,20261013,capture_001_20261013_082144,uplink,0,2501,0,2501,empty payloads_b139.csv; dropped 487 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261013,capture_001_20261013_115145,uplink,0,2208,0,2208,empty payloads_b139.csv; dropped 374 unparsable rows in payloads_b881.csv
+Jio,outdoor_Car,20261013,capture_002_20261013_083005,uplink,0,1928,0,1928,empty payloads_b139.csv; dropped 844 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261013,capture_000_20261013_080504,downlink,265,2604,51,2818,4G: 9588 rows share a timestamp within 4G -> max; 5G: 8566 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261013,capture_000_20261013_081351,downlink,68,1236,6,1298,4G: 1702 rows share a timestamp within 4G -> max; 5G: 3338 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261013,capture_000_20261013_083906,downlink,495,0,0,495,4G: 17398 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,outdoor_Car,20261013,capture_000_20261013_113500,downlink,97,1147,17,1227,4G: 2757 rows share a timestamp within 4G -> max; 5G: 2617 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261013,capture_000_20261013_114359,downlink,395,0,0,395,4G: 12824 rows share a timestamp within 4G -> max; empty payloads_b887.csv
+Vodafone,outdoor_Car,20261013,capture_001_20261013_082214,downlink,259,193,1,451,4G: 9429 rows share a timestamp within 4G -> max; 5G: 614 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261013,capture_001_20261013_115215,downlink,58,1593,2,1649,4G: 865 rows share a timestamp within 4G -> max; 5G: 6599 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261013,capture_002_20261013_083035,downlink,67,894,4,957,4G: 2078 rows share a timestamp within 4G -> max; 5G: 2347 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Car,20261013,capture_000_20261013_080504,uplink,1189,2523,47,3665,4G: 7025 rows share a timestamp within 4G -> max; dropped 313 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261013,capture_000_20261013_081351,uplink,495,1093,26,1562,4G: 534 rows share a timestamp within 4G -> max; dropped 269 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261013,capture_000_20261013_083906,uplink,1515,0,0,1515,4G: 9875 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,outdoor_Car,20261013,capture_000_20261013_113500,uplink,760,1289,342,1707,4G: 948 rows share a timestamp within 4G -> max; dropped 248 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261013,capture_000_20261013_114359,uplink,1799,0,0,1799,4G: 12532 rows share a timestamp within 4G -> max; empty payloads_b881.csv
+Vodafone,outdoor_Car,20261013,capture_001_20261013_082214,uplink,1324,170,12,1482,4G: 7748 rows share a timestamp within 4G -> max; dropped 98 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261013,capture_001_20261013_115215,uplink,183,1406,11,1578,4G: 54 rows share a timestamp within 4G -> max; dropped 336 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Car,20261013,capture_002_20261013_083035,uplink,679,918,99,1498,4G: 4007 rows share a timestamp within 4G -> max; dropped 433 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261012,capture_000_20261012_122047,downlink,263,4160,49,4374,4G: 9134 rows share a timestamp within 4G -> max; 5G: 11041 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261012,capture_000_20261012_123204,downlink,292,3595,58,3829,4G: 6184 rows share a timestamp within 4G -> max; 5G: 8631 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261012,capture_000_20261012_125830,downlink,329,3525,72,3782,4G: 6919 rows share a timestamp within 4G -> max; 5G: 11070 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261012,capture_000_20261012_182749,downlink,412,3069,74,3407,4G: 9094 rows share a timestamp within 4G -> max; 5G: 6993 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261012,capture_000_20261012_183632,downlink,180,1382,33,1529,4G: 4012 rows share a timestamp within 4G -> max; 5G: 2744 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261012,capture_001_20261012_124044,downlink,297,4068,69,4296,4G: 6194 rows share a timestamp within 4G -> max; 5G: 13185 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261012,capture_001_20261012_184445,downlink,175,1544,38,1681,4G: 3757 rows share a timestamp within 4G -> max; 5G: 4166 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261012,capture_002_20261012_124922,downlink,340,3311,65,3586,4G: 7935 rows share a timestamp within 4G -> max; 5G: 9789 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261012,capture_002_20261012_185302,downlink,204,1760,44,1920,4G: 4696 rows share a timestamp within 4G -> max; 5G: 4742 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261012,capture_003_20261012_190119,downlink,155,1672,28,1799,4G: 3466 rows share a timestamp within 4G -> max; 5G: 4104 rows share a timestamp within 5G -> max
+Airtel,outdoor_Ground,20261012,capture_000_20261012_122047,uplink,1846,3957,0,5803,4G: 3444 rows share a timestamp within 4G -> max; dropped 218 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261012,capture_000_20261012_123204,uplink,1610,3372,574,4408,4G: 10581 rows share a timestamp within 4G -> max; dropped 168 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261012,capture_000_20261012_125830,uplink,1610,3087,265,4432,4G: 9941 rows share a timestamp within 4G -> max; dropped 196 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261012,capture_000_20261012_182749,uplink,1863,3231,11,5083,4G: 11290 rows share a timestamp within 4G -> max; dropped 791 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261012,capture_000_20261012_183632,uplink,842,1560,0,2402,4G: 4833 rows share a timestamp within 4G -> max; dropped 134 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261012,capture_001_20261012_124044,uplink,1623,3432,7,5048,4G: 10232 rows share a timestamp within 4G -> max; dropped 161 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261012,capture_001_20261012_184445,uplink,909,1613,16,2506,4G: 5862 rows share a timestamp within 4G -> max; dropped 158 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261012,capture_002_20261012_124922,uplink,1595,3337,829,4103,4G: 10265 rows share a timestamp within 4G -> max; dropped 142 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261012,capture_002_20261012_185302,uplink,915,1644,779,1780,4G: 5820 rows share a timestamp within 4G -> max; dropped 248 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Ground,20261012,capture_003_20261012_190119,uplink,997,1659,0,2656,4G: 6161 rows share a timestamp within 4G -> max; dropped 218 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261012,capture_000_20261012_122117,downlink,0,6393,0,6393,empty payloads_b173.csv; 5G: 22839 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261012,capture_000_20261012_123234,downlink,0,5895,0,5895,empty payloads_b173.csv; 5G: 20905 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261012,capture_000_20261012_125900,downlink,0,5881,0,5881,empty payloads_b173.csv; 5G: 20798 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261012,capture_000_20261012_182819,downlink,0,4611,0,4611,empty payloads_b173.csv; 5G: 15375 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261012,capture_000_20261012_183702,downlink,0,3431,0,3431,empty payloads_b173.csv; 5G: 14070 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261012,capture_001_20261012_124114,downlink,0,5861,0,5861,empty payloads_b173.csv; 5G: 22158 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261012,capture_001_20261012_184515,downlink,0,2851,0,2851,empty payloads_b173.csv; 5G: 10059 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261012,capture_002_20261012_124952,downlink,0,6228,0,6228,empty payloads_b173.csv; 5G: 23899 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261012,capture_002_20261012_185332,downlink,0,3007,0,3007,empty payloads_b173.csv; 5G: 11053 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261012,capture_003_20261012_190149,downlink,0,2933,0,2933,empty payloads_b173.csv; 5G: 7887 rows share a timestamp within 5G -> max
+Jio,outdoor_Ground,20261012,capture_000_20261012_122117,uplink,0,4723,0,4723,empty payloads_b139.csv; dropped 1318 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261012,capture_000_20261012_123234,uplink,0,4554,0,4554,empty payloads_b139.csv; dropped 1205 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261012,capture_000_20261012_125900,uplink,0,3994,0,3994,empty payloads_b139.csv; dropped 1946 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261012,capture_000_20261012_182819,uplink,0,3340,0,3340,empty payloads_b139.csv; dropped 1069 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261012,capture_000_20261012_183702,uplink,0,2545,0,2545,empty payloads_b139.csv; dropped 810 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261012,capture_001_20261012_124114,uplink,0,4413,0,4413,empty payloads_b139.csv; dropped 1238 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261012,capture_001_20261012_184515,uplink,0,2068,0,2068,empty payloads_b139.csv; dropped 701 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261012,capture_002_20261012_124952,uplink,0,4716,0,4716,empty payloads_b139.csv; dropped 1143 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261012,capture_002_20261012_185332,uplink,0,2161,0,2161,empty payloads_b139.csv; dropped 754 unparsable rows in payloads_b881.csv
+Jio,outdoor_Ground,20261012,capture_003_20261012_190149,uplink,0,2382,0,2382,empty payloads_b139.csv; dropped 713 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261012,capture_000_20261012_122147,downlink,479,2224,82,2621,4G: 16149 rows share a timestamp within 4G -> max; 5G: 7274 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261012,capture_000_20261012_123304,downlink,374,3312,71,3615,4G: 12331 rows share a timestamp within 4G -> max; 5G: 11813 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261012,capture_000_20261012_125930,downlink,199,2976,35,3140,4G: 5361 rows share a timestamp within 4G -> max; 5G: 9557 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261012,capture_000_20261012_182849,downlink,387,3238,79,3546,4G: 13255 rows share a timestamp within 4G -> max; 5G: 14208 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261012,capture_000_20261012_183732,downlink,246,1648,45,1849,4G: 8723 rows share a timestamp within 4G -> max; 5G: 6292 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261012,capture_001_20261012_124144,downlink,320,3123,40,3403,4G: 12383 rows share a timestamp within 4G -> max; 5G: 10824 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261012,capture_001_20261012_184545,downlink,111,1601,17,1695,4G: 3712 rows share a timestamp within 4G -> max; 5G: 5168 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261012,capture_002_20261012_125022,downlink,194,2459,14,2639,4G: 6802 rows share a timestamp within 4G -> max; 5G: 8047 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261012,capture_002_20261012_185402,downlink,98,1687,7,1778,4G: 2892 rows share a timestamp within 4G -> max; 5G: 5089 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261012,capture_003_20261012_190219,downlink,126,1124,18,1232,4G: 3972 rows share a timestamp within 4G -> max; 5G: 3572 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Ground,20261012,capture_000_20261012_122147,uplink,1029,2239,170,3098,4G: 1619 rows share a timestamp within 4G -> max; dropped 542 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261012,capture_000_20261012_123304,uplink,1303,2753,89,3967,4G: 7256 rows share a timestamp within 4G -> max; dropped 342 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261012,capture_000_20261012_125930,uplink,1219,2562,470,3311,4G: 8340 rows share a timestamp within 4G -> max; dropped 488 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261012,capture_000_20261012_182849,uplink,1302,2442,1,3743,4G: 7398 rows share a timestamp within 4G -> max; dropped 430 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261012,capture_000_20261012_183732,uplink,460,1441,58,1843,4G: 177 rows share a timestamp within 4G -> max; dropped 180 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261012,capture_001_20261012_124144,uplink,925,2794,604,3115,4G: 4715 rows share a timestamp within 4G -> max; dropped 441 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261012,capture_001_20261012_184545,uplink,610,1450,263,1797,4G: 3905 rows share a timestamp within 4G -> max; dropped 265 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261012,capture_002_20261012_125022,uplink,1106,2182,329,2959,4G: 7236 rows share a timestamp within 4G -> max; dropped 469 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261012,capture_002_20261012_185402,uplink,591,1482,41,2032,4G: 4224 rows share a timestamp within 4G -> max; dropped 296 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Ground,20261012,capture_003_20261012_190219,uplink,591,1076,21,1646,4G: 3406 rows share a timestamp within 4G -> max; dropped 262 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_001_20261013_165103,downlink,488,2475,106,2857,4G: 14333 rows share a timestamp within 4G -> max; 5G: 9247 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_001_20261013_170839,downlink,147,1658,28,1777,4G: 5101 rows share a timestamp within 4G -> max; 5G: 4555 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_002_20261013_165914,downlink,109,1277,35,1351,4G: 3621 rows share a timestamp within 4G -> max; 5G: 4429 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_002_20261013_171659,downlink,173,1518,36,1655,4G: 5037 rows share a timestamp within 4G -> max; 5G: 4518 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_003_20261013_173018,downlink,173,1096,38,1231,4G: 5149 rows share a timestamp within 4G -> max; 5G: 1316 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_004_20261013_173830,downlink,147,1500,26,1621,4G: 3310 rows share a timestamp within 4G -> max; 5G: 3691 rows share a timestamp within 5G -> max
+Airtel,outdoor_Rajdhani,20261013,capture_001_20261013_165103,uplink,1639,2723,0,4362,4G: 5117 rows share a timestamp within 4G -> max; dropped 375 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_001_20261013_170839,uplink,902,1811,0,2713,4G: 1711 rows share a timestamp within 4G -> max; dropped 110 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_002_20261013_165914,uplink,877,1612,0,2489,4G: 2899 rows share a timestamp within 4G -> max; dropped 198 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_002_20261013_171659,uplink,1112,2162,0,3274,4G: 2255 rows share a timestamp within 4G -> max; dropped 128 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_003_20261013_173018,uplink,997,1645,627,2015,4G: 2045 rows share a timestamp within 4G -> max; dropped 283 unparsable rows in payloads_b881.csv
+Airtel,outdoor_Rajdhani,20261013,capture_004_20261013_173830,uplink,842,1555,0,2397,4G: 3556 rows share a timestamp within 4G -> max; dropped 183 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_001_20261013_165133,downlink,0,4557,0,4557,empty payloads_b173.csv; 5G: 15952 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_001_20261013_170909,downlink,0,3055,0,3055,empty payloads_b173.csv; 5G: 9764 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_002_20261013_165944,downlink,0,2857,0,2857,empty payloads_b173.csv; 5G: 9609 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_002_20261013_171729,downlink,0,2390,0,2390,empty payloads_b173.csv; 5G: 9952 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_003_20261013_173048,downlink,0,2777,0,2777,empty payloads_b173.csv; 5G: 10113 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_004_20261013_173900,downlink,0,2803,0,2803,empty payloads_b173.csv; 5G: 10485 rows share a timestamp within 5G -> max
+Jio,outdoor_Rajdhani,20261013,capture_001_20261013_165133,uplink,0,3292,0,3292,empty payloads_b139.csv; dropped 1172 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_001_20261013_170909,uplink,0,2811,0,2811,empty payloads_b139.csv; dropped 286 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_002_20261013_165944,uplink,0,2131,0,2131,empty payloads_b139.csv; dropped 698 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_002_20261013_171729,uplink,0,2707,0,2707,empty payloads_b139.csv; dropped 359 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_003_20261013_173048,uplink,0,2830,0,2830,empty payloads_b139.csv; dropped 544 unparsable rows in payloads_b881.csv
+Jio,outdoor_Rajdhani,20261013,capture_004_20261013_173900,uplink,0,2836,0,2836,empty payloads_b139.csv; dropped 615 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_001_20261013_165203,downlink,114,2214,5,2323,4G: 2657 rows share a timestamp within 4G -> max; 5G: 5968 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_001_20261013_170939,downlink,158,2022,23,2157,4G: 5700 rows share a timestamp within 4G -> max; 5G: 8040 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_002_20261013_170014,downlink,55,1090,2,1143,4G: 1316 rows share a timestamp within 4G -> max; 5G: 2846 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_002_20261013_171759,downlink,160,1744,24,1880,4G: 6254 rows share a timestamp within 4G -> max; 5G: 7513 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_003_20261013_173118,downlink,62,1280,13,1329,4G: 1459 rows share a timestamp within 4G -> max; 5G: 2996 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_004_20261013_173930,downlink,74,1256,18,1312,4G: 1892 rows share a timestamp within 4G -> max; 5G: 2953 rows share a timestamp within 5G -> max
+Vodafone,outdoor_Rajdhani,20261013,capture_001_20261013_165203,uplink,1066,2039,32,3073,4G: 1452 rows share a timestamp within 4G -> max; dropped 463 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_001_20261013_170939,uplink,858,1875,1,2732,4G: 978 rows share a timestamp within 4G -> max; dropped 85 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_002_20261013_170014,uplink,605,1040,9,1636,4G: 782 rows share a timestamp within 4G -> max; dropped 197 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_002_20261013_171759,uplink,568,1498,48,2018,4G: 3863 rows share a timestamp within 4G -> max; dropped 195 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_003_20261013_173118,uplink,678,1261,19,1920,4G: 926 rows share a timestamp within 4G -> max; dropped 195 unparsable rows in payloads_b881.csv
+Vodafone,outdoor_Rajdhani,20261013,capture_004_20261013_173930,uplink,684,1203,21,1866,4G: 950 rows share a timestamp within 4G -> max; dropped 187 unparsable rows in payloads_b881.csv
