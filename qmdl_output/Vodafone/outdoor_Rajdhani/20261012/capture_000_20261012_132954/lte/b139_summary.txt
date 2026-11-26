@@ -1,0 +1,48 @@
+========================================================================================
+ 0xB139 LTE PHY PUSCH TX REPORT — TELEMETRY SUMMARY
+========================================================================================
+ Total Scheduled PUSCH Transmissions: 1,911
+ Initial Transmissions (First Tx)   : 1,735 (90.79%)
+ HARQ Retransmissions               : 176 (9.21%)
+ Total PUSCH Uplink Data Volume     : 497,016 Bytes (0.47 MB)
+ Active Timeline Duration           : 2026-10-12 08:01:08 UTC  -->  2026-10-12 08:06:08 UTC (300.04 s)
+ Average PUSCH UL PHY Throughput    : 0.01 Mbps
+ Serving Cell IDs (PCIs) Detected   : 95
+----------------------------------------------------------------------------------------
+ UPLINK CARRIER AGGREGATION BREAKDOWN:
+ Carrier  | Total PUSCH | Share (%)  | UL Bytes       | UL (MB)    | Re-Tx (%)
+------------------------------------------------------------------------
+ PCC      | 1,911       |   100.00% | 497,016        |     0.47 MB |    9.21%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   QPSK     :       12 ( 0.63%)
+   16-QAM   :       38 ( 1.99%)
+   64-QAM   :    1,861 (97.38%)
+ HARQ RETRANSMISSION INDEX DISTRIBUTION:
+   Index  0 (Initial Tx  ) :    1,735 (90.79%)
+   Index  1 (Re-Tx #1    ) :      171 ( 8.95%)
+   Index  2 (Re-Tx #2    ) :        2 ( 0.10%)
+   Index  4 (Re-Tx #4    ) :        3 ( 0.16%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Data      ) :    1,740 (91.05%)
+   RV 2 (Retransmission) :      171 ( 8.95%)
+ TOP 10 SCHEDULED PHYSICAL RESOURCE BLOCK (PRB) ALLOCATIONS:
+    2 PRBs :    1,425 (74.57%)
+    3 PRBs :      214 (11.20%)
+   24 PRBs :      132 ( 6.91%)
+    4 PRBs :       97 ( 5.08%)
+    5 PRBs :       17 ( 0.89%)
+   18 PRBs :       13 ( 0.68%)
+    1 PRBs :        4 ( 0.21%)
+   15 PRBs :        3 ( 0.16%)
+   20 PRBs :        2 ( 0.10%)
+   16 PRBs :        1 ( 0.05%)
+ PUSCH TRANSMIT POWER & RF METRICS:
+   Tx Power (Active Transmissions) : Min 8 dBm | Avg 44.0 dBm | Max 112 dBm
+ UPLINK CONTROL INFORMATION (UCI) ON PUSCH & SIGNALS:
+   ACK/NACK Multiplexed on PUSCH   :      185 ( 9.68%)
+   CQI/CSI Multiplexed on PUSCH    :      874 (45.74%)
+   Rank Indicator (RI) Multiplexed :      873 (45.68%)
+   SRS Transmissions / Occasions   :        0 ( 0.00%)
+   Dropped / Punctured PUSCH       :        0 ( 0.00%)
+========================================================================================

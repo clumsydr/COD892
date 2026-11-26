@@ -1,0 +1,42 @@
+========================================================================================
+ 0xB173 LTE ML1 PDSCH STAT INDICATION — TELEMETRY SUMMARY
+========================================================================================
+ Total Transport Blocks Decoded : 91,775
+ CRC Results (Pass / Fail)      : 82,883 PASS | 8,892 FAIL
+ Block Error Rate (BLER)        : 9.69%
+ Valid Decoded PDSCH Data Volume: 85,015,538 Bytes (81.08 MB)
+ Timeline Active Span           : 2026-10-11 12:18:56 UTC  -->  2026-10-11 12:23:55 UTC (299.92 s)
+ Average PDSCH DL Throughput    : 2.27 Mbps
+----------------------------------------------------------------------------------------
+ CARRIER AGGREGATION & CELL BREAKDOWN:
+ Cell     | Total TBs   | Share (%)  | DL Bytes       | DL (MB)    | BLER (%) 
+------------------------------------------------------------------------
+ PCC      | 91,748      |    99.97% | 85,011,468     |    81.07 MB |    9.67%
+ SCC1     | 27          |     0.03% | 4,070          |     0.00 MB |   62.96%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   QPSK     :   27,974 (30.48%)
+   16QAM    :   37,168 (40.50%)
+   64QAM    :   24,877 (27.11%)
+   256QAM   :    1,756 ( 1.91%)
+ MIMO LAYER (SPATIAL RANK) DISTRIBUTION:
+   Rank 1   :   46,122 (50.26%)
+   Rank 2   :   45,651 (49.74%)
+   Rank 4   :        2 ( 0.00%)
+ TOP 10 SCHEDULED MCS INDICES:
+   MCS  9  :    8,522 ( 9.29%)
+   MCS  8  :    7,940 ( 8.65%)
+   MCS 12  :    7,663 ( 8.35%)
+   MCS 13  :    6,920 ( 7.54%)
+   MCS 11  :    6,875 ( 7.49%)
+   MCS 14  :    5,629 ( 6.13%)
+   MCS  7  :    5,628 ( 6.13%)
+   MCS 15  :    4,744 ( 5.17%)
+   MCS 30  :    4,730 ( 5.15%)
+   MCS 16  :    4,149 ( 4.52%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Tx        ) :   82,826 (90.25%)
+   RV 1 (ReTx (RV=1)   ) :        9 ( 0.01%)
+   RV 2 (ReTx (RV=2)   ) :    8,725 ( 9.51%)
+   RV 3 (ReTx (RV=3)   ) :      215 ( 0.23%)
+========================================================================================

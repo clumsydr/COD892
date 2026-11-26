@@ -1,0 +1,44 @@
+========================================================================================
+ 0xB173 LTE ML1 PDSCH STAT INDICATION — TELEMETRY SUMMARY
+========================================================================================
+ Total Transport Blocks Decoded : 4,076
+ CRC Results (Pass / Fail)      : 3,678 PASS | 398 FAIL
+ Block Error Rate (BLER)        : 9.76%
+ Valid Decoded PDSCH Data Volume: 9,957,021 Bytes (9.50 MB)
+ Timeline Active Span           : 2026-10-12 15:35:27 UTC  -->  2026-10-12 15:40:27 UTC (299.74 s)
+ Average PDSCH DL Throughput    : 0.27 Mbps
+----------------------------------------------------------------------------------------
+ CARRIER AGGREGATION & CELL BREAKDOWN:
+ Cell     | Total TBs   | Share (%)  | DL Bytes       | DL (MB)    | BLER (%) 
+------------------------------------------------------------------------
+ PCC      | 3,940       |    96.66% | 9,799,604      |     9.35 MB |    8.78%
+ SCC1     | 124         |     3.04% | 142,389        |     0.14 MB |   36.29%
+ SCC2     | 12          |     0.29% | 15,028         |     0.01 MB |   58.33%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   QPSK     :      147 ( 3.61%)
+   16QAM    :      230 ( 5.64%)
+   64QAM    :      880 (21.59%)
+   256QAM   :    2,819 (69.16%)
+ MIMO LAYER (SPATIAL RANK) DISTRIBUTION:
+   Rank 1   :      818 (20.07%)
+   Rank 2   :    3,248 (79.69%)
+   Rank 3   :        8 ( 0.20%)
+   Rank 4   :        2 ( 0.05%)
+ TOP 10 SCHEDULED MCS INDICES:
+   MCS 20  :      763 (18.72%)
+   MCS 22  :      581 (14.25%)
+   MCS 23  :      431 (10.57%)
+   MCS 21  :      341 ( 8.37%)
+   MCS 24  :      325 ( 7.97%)
+   MCS 31  :      252 ( 6.18%)
+   MCS 19  :      195 ( 4.78%)
+   MCS 11  :      159 ( 3.90%)
+   MCS 26  :      140 ( 3.43%)
+   MCS  7  :      126 ( 3.09%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Tx        ) :    3,677 (90.21%)
+   RV 1 (ReTx (RV=1)   ) :        4 ( 0.10%)
+   RV 2 (ReTx (RV=2)   ) :      382 ( 9.37%)
+   RV 3 (ReTx (RV=3)   ) :       13 ( 0.32%)
+========================================================================================

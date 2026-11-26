@@ -1,0 +1,43 @@
+========================================================================================
+ 0xB173 LTE ML1 PDSCH STAT INDICATION — TELEMETRY SUMMARY
+========================================================================================
+ Total Transport Blocks Decoded : 3,886
+ CRC Results (Pass / Fail)      : 3,420 PASS | 466 FAIL
+ Block Error Rate (BLER)        : 11.99%
+ Valid Decoded PDSCH Data Volume: 4,042,916 Bytes (3.86 MB)
+ Timeline Active Span           : 2026-10-13 05:20:02 UTC  -->  2026-10-13 05:20:25 UTC (23.40 s)
+ Average PDSCH DL Throughput    : 1.38 Mbps
+----------------------------------------------------------------------------------------
+ CARRIER AGGREGATION & CELL BREAKDOWN:
+ Cell     | Total TBs   | Share (%)  | DL Bytes       | DL (MB)    | BLER (%) 
+------------------------------------------------------------------------
+ PCC      | 2,445       |    62.92% | 1,489,821      |     1.42 MB |   10.47%
+ SCC1     | 807         |    20.77% | 1,632,944      |     1.56 MB |   18.96%
+ SCC2     | 634         |    16.31% | 920,151        |     0.88 MB |    8.99%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   QPSK     :    1,470 (37.83%)
+   16QAM    :    1,714 (44.11%)
+   64QAM    :      698 (17.96%)
+   256QAM   :        4 ( 0.10%)
+ MIMO LAYER (SPATIAL RANK) DISTRIBUTION:
+   Rank 1   :      689 (17.73%)
+   Rank 2   :    3,167 (81.50%)
+   Rank 3   :       24 ( 0.62%)
+   Rank 4   :        6 ( 0.15%)
+ TOP 10 SCHEDULED MCS INDICES:
+   MCS  8  :      503 (12.94%)
+   MCS  9  :      399 (10.27%)
+   MCS 11  :      393 (10.11%)
+   MCS 12  :      319 ( 8.21%)
+   MCS  7  :      285 ( 7.33%)
+   MCS  0  :      261 ( 6.72%)
+   MCS 10  :      230 ( 5.92%)
+   MCS 13  :      190 ( 4.89%)
+   MCS 29  :      178 ( 4.58%)
+   MCS 15  :      160 ( 4.12%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Tx        ) :    3,567 (91.79%)
+   RV 2 (ReTx (RV=2)   ) :      317 ( 8.16%)
+   RV 3 (ReTx (RV=3)   ) :        2 ( 0.05%)
+========================================================================================
