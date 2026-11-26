@@ -1,0 +1,41 @@
+========================================================================================
+ 0xB173 LTE ML1 PDSCH STAT INDICATION — TELEMETRY SUMMARY
+========================================================================================
+ Total Transport Blocks Decoded : 3,581
+ CRC Results (Pass / Fail)      : 3,171 PASS | 410 FAIL
+ Block Error Rate (BLER)        : 11.45%
+ Valid Decoded PDSCH Data Volume: 4,395,101 Bytes (4.19 MB)
+ Timeline Active Span           : 2026-10-06 11:15:28 UTC  -->  2026-10-06 11:16:11 UTC (42.72 s)
+ Average PDSCH DL Throughput    : 0.82 Mbps
+----------------------------------------------------------------------------------------
+ CARRIER AGGREGATION & CELL BREAKDOWN:
+ Cell     | Total TBs   | Share (%)  | DL Bytes       | DL (MB)    | BLER (%) 
+------------------------------------------------------------------------
+ PCC      | 3,266       |    91.20% | 4,170,160      |     3.98 MB |   11.15%
+ SCC1     | 315         |     8.80% | 224,941        |     0.21 MB |   14.60%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   QPSK     :      884 (24.69%)
+   16QAM    :      596 (16.64%)
+   64QAM    :    2,101 (58.67%)
+   256QAM   :        0 ( 0.00%)
+ MIMO LAYER (SPATIAL RANK) DISTRIBUTION:
+   Rank 1   :    3,561 (99.44%)
+   Rank 2   :       20 ( 0.56%)
+ TOP 10 SCHEDULED MCS INDICES:
+   MCS 19  :      541 (15.11%)
+   MCS  0  :      504 (14.07%)
+   MCS 18  :      429 (11.98%)
+   MCS 20  :      353 ( 9.86%)
+   MCS 16  :      283 ( 7.90%)
+   MCS 21  :      227 ( 6.34%)
+   MCS 31  :      224 ( 6.26%)
+   MCS 11  :      141 ( 3.94%)
+   MCS 22  :      129 ( 3.60%)
+   MCS 17  :      125 ( 3.49%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Tx        ) :    3,275 (91.45%)
+   RV 1 (ReTx (RV=1)   ) :        2 ( 0.06%)
+   RV 2 (ReTx (RV=2)   ) :      303 ( 8.46%)
+   RV 3 (ReTx (RV=3)   ) :        1 ( 0.03%)
+========================================================================================

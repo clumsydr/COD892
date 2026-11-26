@@ -1,0 +1,41 @@
+========================================================================================
+ 0xB173 LTE ML1 PDSCH STAT INDICATION — TELEMETRY SUMMARY
+========================================================================================
+ Total Transport Blocks Decoded : 5,367
+ CRC Results (Pass / Fail)      : 4,883 PASS | 484 FAIL
+ Block Error Rate (BLER)        : 9.02%
+ Valid Decoded PDSCH Data Volume: 18,011,276 Bytes (17.18 MB)
+ Timeline Active Span           : 2026-10-12 15:08:11 UTC  -->  2026-10-12 15:08:33 UTC (22.04 s)
+ Average PDSCH DL Throughput    : 6.54 Mbps
+----------------------------------------------------------------------------------------
+ CARRIER AGGREGATION & CELL BREAKDOWN:
+ Cell     | Total TBs   | Share (%)  | DL Bytes       | DL (MB)    | BLER (%) 
+------------------------------------------------------------------------
+ PCC      | 3,498       |    65.18% | 11,697,628     |    11.16 MB |    7.98%
+ SCC1     | 1,869       |    34.82% | 6,313,648      |     6.02 MB |   10.97%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   QPSK     :      393 ( 7.32%)
+   16QAM    :      940 (17.51%)
+   64QAM    :    3,594 (66.96%)
+   256QAM   :      440 ( 8.20%)
+ MIMO LAYER (SPATIAL RANK) DISTRIBUTION:
+   Rank 1   :    2,768 (51.57%)
+   Rank 2   :    2,591 (48.28%)
+   Rank 4   :        8 ( 0.15%)
+ TOP 10 SCHEDULED MCS INDICES:
+   MCS 21  :      420 ( 7.83%)
+   MCS 22  :      329 ( 6.13%)
+   MCS 23  :      329 ( 6.13%)
+   MCS 24  :      314 ( 5.85%)
+   MCS 13  :      291 ( 5.42%)
+   MCS 20  :      289 ( 5.38%)
+   MCS 19  :      287 ( 5.35%)
+   MCS 14  :      267 ( 4.97%)
+   MCS 11  :      231 ( 4.30%)
+   MCS 25  :      224 ( 4.17%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Tx        ) :    5,070 (94.47%)
+   RV 2 (ReTx (RV=2)   ) :      295 ( 5.50%)
+   RV 3 (ReTx (RV=3)   ) :        2 ( 0.04%)
+========================================================================================

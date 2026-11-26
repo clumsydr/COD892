@@ -1,0 +1,34 @@
+========================================================================================
+ 0xB173 LTE ML1 PDSCH STAT INDICATION — TELEMETRY SUMMARY
+========================================================================================
+ Total Transport Blocks Decoded : 148
+ CRC Results (Pass / Fail)      : 147 PASS | 1 FAIL
+ Block Error Rate (BLER)        : 0.68%
+ Valid Decoded PDSCH Data Volume: 1,460 Bytes (0.00 MB)
+ Timeline Active Span           : 2026-10-13 05:06:35 UTC  -->  2026-10-13 05:11:28 UTC (293.10 s)
+ Average PDSCH DL Throughput    : 0.00 Mbps
+----------------------------------------------------------------------------------------
+ CARRIER AGGREGATION & CELL BREAKDOWN:
+ Cell     | Total TBs   | Share (%)  | DL Bytes       | DL (MB)    | BLER (%) 
+------------------------------------------------------------------------
+ PCC      | 148         |   100.00% | 1,460          |     0.00 MB |    0.68%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   QPSK     :      148 (100.00%)
+   16QAM    :        0 ( 0.00%)
+   64QAM    :        0 ( 0.00%)
+   256QAM   :        0 ( 0.00%)
+ MIMO LAYER (SPATIAL RANK) DISTRIBUTION:
+   Rank 1   :       67 (45.27%)
+   Rank 2   :       81 (54.73%)
+ TOP 10 SCHEDULED MCS INDICES:
+   MCS  0  :       67 (45.27%)
+   MCS  1  :       56 (37.84%)
+   MCS  3  :       15 (10.14%)
+   MCS  5  :        9 ( 6.08%)
+   MCS 29  :        1 ( 0.68%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Tx        ) :      146 (98.65%)
+   RV 2 (ReTx (RV=2)   ) :        1 ( 0.68%)
+   RV 3 (ReTx (RV=3)   ) :        1 ( 0.68%)
+========================================================================================

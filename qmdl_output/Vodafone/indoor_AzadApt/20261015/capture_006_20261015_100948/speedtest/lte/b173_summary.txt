@@ -1,0 +1,43 @@
+========================================================================================
+ 0xB173 LTE ML1 PDSCH STAT INDICATION — TELEMETRY SUMMARY
+========================================================================================
+ Total Transport Blocks Decoded : 9,484
+ CRC Results (Pass / Fail)      : 8,281 PASS | 1,203 FAIL
+ Block Error Rate (BLER)        : 12.68%
+ Valid Decoded PDSCH Data Volume: 5,991,624 Bytes (5.71 MB)
+ Timeline Active Span           : 2026-10-15 04:40:03 UTC  -->  2026-10-15 04:40:30 UTC (27.00 s)
+ Average PDSCH DL Throughput    : 1.78 Mbps
+----------------------------------------------------------------------------------------
+ CARRIER AGGREGATION & CELL BREAKDOWN:
+ Cell     | Total TBs   | Share (%)  | DL Bytes       | DL (MB)    | BLER (%) 
+------------------------------------------------------------------------
+ PCC      | 4,638       |    48.90% | 2,453,062      |     2.34 MB |    9.57%
+ SCC1     | 4,169       |    43.96% | 2,733,388      |     2.61 MB |   14.97%
+ SCC2     | 677         |     7.14% | 805,174        |     0.77 MB |   19.94%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   QPSK     :    5,376 (56.68%)
+   16QAM    :    3,923 (41.36%)
+   64QAM    :      185 ( 1.95%)
+   256QAM   :        0 ( 0.00%)
+ MIMO LAYER (SPATIAL RANK) DISTRIBUTION:
+   Rank 1   :    6,100 (64.32%)
+   Rank 2   :    3,213 (33.88%)
+   Rank 3   :      150 ( 1.58%)
+   Rank 4   :       21 ( 0.22%)
+ TOP 10 SCHEDULED MCS INDICES:
+   MCS  8  :      922 ( 9.72%)
+   MCS  7  :      910 ( 9.60%)
+   MCS  9  :      901 ( 9.50%)
+   MCS 12  :      791 ( 8.34%)
+   MCS 11  :      749 ( 7.90%)
+   MCS  0  :      593 ( 6.25%)
+   MCS  6  :      579 ( 6.11%)
+   MCS 13  :      535 ( 5.64%)
+   MCS 10  :      477 ( 5.03%)
+   MCS  5  :      467 ( 4.92%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Tx        ) :    9,052 (95.44%)
+   RV 2 (ReTx (RV=2)   ) :      414 ( 4.37%)
+   RV 3 (ReTx (RV=3)   ) :       18 ( 0.19%)
+========================================================================================

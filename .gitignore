@@ -5,12 +5,12 @@ graphs
 plot_env
 
 # Output flagging
-qmdl_output
 diag_*.txt
 ._diag_*.txt
 payloads.txt
 qmdl-to-scat.txt
-
+b881_box_plot.png
+combined-payloads.txt
 
 QMDL-processing
 results

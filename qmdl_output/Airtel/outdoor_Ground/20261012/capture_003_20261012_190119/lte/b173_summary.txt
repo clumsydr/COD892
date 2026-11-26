@@ -1,0 +1,41 @@
+========================================================================================
+ 0xB173 LTE ML1 PDSCH STAT INDICATION — TELEMETRY SUMMARY
+========================================================================================
+ Total Transport Blocks Decoded : 11,737
+ CRC Results (Pass / Fail)      : 10,775 PASS | 962 FAIL
+ Block Error Rate (BLER)        : 8.20%
+ Valid Decoded PDSCH Data Volume: 10,232,258 Bytes (9.76 MB)
+ Timeline Active Span           : 2026-10-12 13:32:18 UTC  -->  2026-10-12 13:37:17 UTC (299.70 s)
+ Average PDSCH DL Throughput    : 0.27 Mbps
+----------------------------------------------------------------------------------------
+ CARRIER AGGREGATION & CELL BREAKDOWN:
+ Cell     | Total TBs   | Share (%)  | DL Bytes       | DL (MB)    | BLER (%) 
+------------------------------------------------------------------------
+ PCC      | 11,323      |    96.47% | 9,484,368      |     9.04 MB |    7.90%
+ SCC1     | 414         |     3.53% | 747,890        |     0.71 MB |   16.18%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   QPSK     :    6,174 (52.60%)
+   16QAM    :    4,230 (36.04%)
+   64QAM    :    1,333 (11.36%)
+   256QAM   :        0 ( 0.00%)
+ MIMO LAYER (SPATIAL RANK) DISTRIBUTION:
+   Rank 1   :    4,194 (35.73%)
+   Rank 2   :    7,543 (64.27%)
+ TOP 10 SCHEDULED MCS INDICES:
+   MCS  0  :    2,650 (22.58%)
+   MCS 15  :      980 ( 8.35%)
+   MCS 14  :      876 ( 7.46%)
+   MCS  8  :      826 ( 7.04%)
+   MCS 16  :      712 ( 6.07%)
+   MCS 29  :      691 ( 5.89%)
+   MCS  7  :      622 ( 5.30%)
+   MCS  9  :      580 ( 4.94%)
+   MCS 13  :      561 ( 4.78%)
+   MCS  6  :      442 ( 3.77%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Tx        ) :   10,809 (92.09%)
+   RV 1 (ReTx (RV=1)   ) :        2 ( 0.02%)
+   RV 2 (ReTx (RV=2)   ) :      912 ( 7.77%)
+   RV 3 (ReTx (RV=3)   ) :       14 ( 0.12%)
+========================================================================================

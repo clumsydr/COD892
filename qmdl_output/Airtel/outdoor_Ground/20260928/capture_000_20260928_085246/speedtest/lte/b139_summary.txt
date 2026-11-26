@@ -1,0 +1,35 @@
+========================================================================================
+ 0xB139 LTE PHY PUSCH TX REPORT — TELEMETRY SUMMARY
+========================================================================================
+ Total Scheduled PUSCH Transmissions: 70
+ Initial Transmissions (First Tx)   : 63 (90.00%)
+ HARQ Retransmissions               : 7 (10.00%)
+ Total PUSCH Uplink Data Volume     : 9,966 Bytes (0.01 MB)
+ Active Timeline Duration           : 2026-09-28 03:22:59 UTC  -->  2026-09-28 03:22:59 UTC (0.30 s)
+ Average PUSCH UL PHY Throughput    : 0.27 Mbps
+ Serving Cell IDs (PCIs) Detected   : 127
+----------------------------------------------------------------------------------------
+ UPLINK CARRIER AGGREGATION BREAKDOWN:
+ Carrier  | Total PUSCH | Share (%)  | UL Bytes       | UL (MB)    | Re-Tx (%)
+------------------------------------------------------------------------
+ PCC      | 70          |   100.00% | 9,966          |     0.01 MB |   10.00%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   64-QAM   :       70 (100.00%)
+ HARQ RETRANSMISSION INDEX DISTRIBUTION:
+   Index  0 (Initial Tx  ) :       63 (90.00%)
+   Index  1 (Re-Tx #1    ) :        7 (10.00%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Data      ) :       63 (90.00%)
+   RV 2 (Retransmission) :        7 (10.00%)
+ TOP 10 SCHEDULED PHYSICAL RESOURCE BLOCK (PRB) ALLOCATIONS:
+    2 PRBs :       70 (100.00%)
+ PUSCH TRANSMIT POWER & RF METRICS:
+   Tx Power (Active Transmissions) : Min 6 dBm | Avg 16.0 dBm | Max 26 dBm
+ UPLINK CONTROL INFORMATION (UCI) ON PUSCH & SIGNALS:
+   ACK/NACK Multiplexed on PUSCH   :        2 ( 2.86%)
+   CQI/CSI Multiplexed on PUSCH    :        2 ( 2.86%)
+   Rank Indicator (RI) Multiplexed :        1 ( 1.43%)
+   SRS Transmissions / Occasions   :        0 ( 0.00%)
+   Dropped / Punctured PUSCH       :        0 ( 0.00%)
+========================================================================================

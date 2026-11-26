@@ -1,0 +1,41 @@
+========================================================================================
+ 0xB173 LTE ML1 PDSCH STAT INDICATION — TELEMETRY SUMMARY
+========================================================================================
+ Total Transport Blocks Decoded : 5,584
+ CRC Results (Pass / Fail)      : 4,992 PASS | 592 FAIL
+ Block Error Rate (BLER)        : 10.60%
+ Valid Decoded PDSCH Data Volume: 10,436,249 Bytes (9.95 MB)
+ Timeline Active Span           : 2026-10-12 12:24:23 UTC  -->  2026-10-12 12:24:48 UTC (25.30 s)
+ Average PDSCH DL Throughput    : 3.30 Mbps
+----------------------------------------------------------------------------------------
+ CARRIER AGGREGATION & CELL BREAKDOWN:
+ Cell     | Total TBs   | Share (%)  | DL Bytes       | DL (MB)    | BLER (%) 
+------------------------------------------------------------------------
+ PCC      | 2,763       |    49.48% | 3,908,974      |     3.73 MB |   12.41%
+ SCC1     | 2,821       |    50.52% | 6,527,275      |     6.22 MB |    8.83%
+------------------------------------------------------------------------
+ MODULATION DISTRIBUTION:
+   QPSK     :      470 ( 8.42%)
+   16QAM    :    3,318 (59.42%)
+   64QAM    :    1,796 (32.16%)
+   256QAM   :        0 ( 0.00%)
+ MIMO LAYER (SPATIAL RANK) DISTRIBUTION:
+   Rank 1   :    2,654 (47.53%)
+   Rank 2   :    2,930 (52.47%)
+ TOP 10 SCHEDULED MCS INDICES:
+   MCS 16  :      799 (14.31%)
+   MCS 15  :      750 (13.43%)
+   MCS 14  :      664 (11.89%)
+   MCS 13  :      454 ( 8.13%)
+   MCS 18  :      437 ( 7.83%)
+   MCS 19  :      420 ( 7.52%)
+   MCS  0  :      315 ( 5.64%)
+   MCS 12  :      267 ( 4.78%)
+   MCS 20  :      264 ( 4.73%)
+   MCS 17  :      218 ( 3.90%)
+ REDUNDANCY VERSION (RV) DISTRIBUTION:
+   RV 0 (New Tx        ) :    5,349 (95.79%)
+   RV 1 (ReTx (RV=1)   ) :        2 ( 0.04%)
+   RV 2 (ReTx (RV=2)   ) :      229 ( 4.10%)
+   RV 3 (ReTx (RV=3)   ) :        4 ( 0.07%)
+========================================================================================
