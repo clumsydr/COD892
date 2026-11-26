@@ -72,7 +72,7 @@ NR_KEYWORDS = ["NR", "5G"]
 #   "tb_size"   -> (TB Size column + 24 CRC bits) / (14*12*RB*Q_m)
 #   "tbs_index" -> (I_TBS from TS 36.213 Table 7.1.7.1-1 + 24) / (14*12*RB*Q_m)   [literal reading]
 LTE_DL_TCR_NUMERATOR = "tb_size"
-TB_SIZE_IN_BYTES = False          # set True if the "TB Size" column is in bytes (converted to bits)
+TB_SIZE_IN_BYTES = True           # build_QMDL_metrics.py stores tb_size_bytes -> convert to bits (*8)
 LTE_DL_TCR_SCALE_1024 = True      # express 4G DL code rate as R x 1024, same scale as 5G table & 4G UL
 
 # Blank Retransmission values: True -> treated as new transmission (0)
@@ -208,17 +208,28 @@ def add_row_params(df, direction):
                 num = num * 8
         else:
             num = mcs.map(lambda m: LTE_MCS_TO_ITBS.get(int(m), np.nan) if pd.notna(m) else np.nan)
-        denom = 14 * 12 * rb * qm_lte
+        denom = 14 * 12 * rb * qm_lte * mimo
         tcr_lte = (num + 24) / denom.where(denom > 0)
         if LTE_DL_TCR_SCALE_1024:
-            tcr_lte = tcr_lte * 1024
+            tcr_lte = (tcr_lte * 1024).clip(upper=960.0)
     tcr = tcr_nr.where(is_nr, tcr_lte)
+
+    tb_bytes = pd.to_numeric(df["TB Size"], errors="coerce").fillna(0.0)
+    retx_val = parse_retx(df["Retransmission"])
+    if direction == "UL":
+        # Continuous byte-ratio efficiency for 5G UL (0xB881) vs binary rv==0 for 4G UL (0xB139)
+        tot_b = tb_bytes + retx_val
+        eff_5g = np.where(tot_b > 0, tb_bytes / tot_b, 1.0)
+        row_eff = np.where(is_nr, eff_5g, np.where(retx_val == 0, 1.0, 0.0))
+    else:
+        row_eff = np.where(retx_val == 0, 1.0, 0.0)
 
     df["_mimo"] = mimo
     df["_qm"] = qm
     df["_tcr"] = tcr
     df["_rb"] = rb.fillna(0)
-    df["_retx"] = parse_retx(df["Retransmission"])
+    df["_retx"] = retx_val
+    df["_rb_new"] = df["_rb"] * row_eff
     df["_t"] = to_epoch_seconds(df["timestamp"])
     return df
 
@@ -282,11 +293,20 @@ def aggregate_run(df_run, t0, win_s, app, app_col, meta):
     rows = []
     for k, g in df_run.groupby("_win", sort=True):
         k = int(k)
-        mimo = g["_mimo"].mean()
-        qm = g["_qm"].mean()
-        tcr = g["_tcr"].mean()
-        rb_total = g["_rb"].sum()
-        rb_new = g.loc[g["_retx"] == 0, "_rb"].sum()
+        w_rb = g["_rb"].values
+        rb_total = float(w_rb.sum())
+
+        def rb_wmean(vals):
+            v = vals.values.astype(float)
+            mask = np.isfinite(v) & (w_rb > 0)
+            if not mask.any():
+                return float(np.nanmean(v)) if np.isfinite(v).any() else np.nan
+            return float(np.sum(v[mask] * w_rb[mask]) / np.sum(w_rb[mask]))
+
+        mimo = rb_wmean(g["_mimo"])
+        qm = rb_wmean(g["_qm"])
+        tcr = rb_wmean(g["_tcr"])
+        rb_new = float(g["_rb_new"].sum())
         eff = rb_new / rb_total if rb_total > 0 else np.nan
         app_tp = app_win.get(k, np.nan) if app_win is not None else np.nan
         rows.append({

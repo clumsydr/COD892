@@ -1,0 +1,12 @@
+(a)
+what commercial tools exist for parsing physical layer logs for 4G vs. 5G
+the parser you built for which logs and why those particular logs?
+how you used a combination of visualization/existing source codes/llms etc. to build the parser
+how you reverse engineered a commercial parser and corrected yours (illegal), how you checked parts of your parser with a commercial parser Bharti school paid for (legal).
+What your parser output looks like (sample) and explain the columns
+
+(b) Data collected with your parser -- same phone hardware, three operators setup --- describe the applications run and metrics collected, mainly speedtest (+VC if you are able to analyze the VC logs) --- clearly mention that PhD student Mahima physically collected the data, not you
+
+(c) speedtest throughput visualization uplink vs. downlink, 4G vs. 5G --- for 5-6 locations -- side by side for comparison across locations
+
+(d) explanation of the throughput graphs using linear regression on the physical layer parameters;

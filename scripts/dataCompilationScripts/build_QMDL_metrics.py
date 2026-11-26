@@ -26,7 +26,7 @@ ROOT = "qmdl_output"              # input root folder
 
 TS_COL     = "timestamp_utc"      # timestamp column name; None = auto-detect
 ROUND_MS   = 0                    # 0 = exact timestamp match; e.g. 1 = match within 1 ms bin
-WITHIN_RAT = "max"                # rows of ONE RAT at one timestamp: "max", "sum" or "first"
+WITHIN_RAT = "sum"                # sum additive RB/TB across slots sharing a timestamp; mean intensive metrics
 # ===========================================================================
 
 # Sources definition with metrics configuration:
@@ -37,7 +37,7 @@ SOURCES = {
             "mod-order": "mod_order", "Coding Rate": "coding_rate", 
             "TB Size": "tb_size_bytes", "Retransmission": "rv"
         }),
-        "5G": ("payloads_b881.csv", "avg_prb_this_interval", {
+        "5G": ("payloads_b881.csv", "delta_num_prb", {
             "MIMO Layers": None, "MCS": "avg_mcs_this_interval", "Modulation": None, 
             "mod-order": None, "Coding Rate": None, 
             "TB Size": "delta_new_tx_bytes", "Retransmission": "delta_retx_bytes"
@@ -127,12 +127,22 @@ def read_rat(path, rb_col, metric_map, ts_override, notes):
     return cleaned
 
 def collapse_within_rat(df, how, rat, notes):
-    """Several rows of the SAME RAT at one timestamp."""
+    """Several rows of the SAME RAT at one timestamp: sum additive fields, mean intensive fields."""
     dup = df["ts"].duplicated(keep=False).sum()
     if dup:
         notes.append(f"{rat}: {dup} rows share a timestamp within {rat} -> {how}")
-    
-    agg_dict = {col: how if pd.api.types.is_numeric_dtype(df[col]) else 'first' for col in df.columns if col != "ts"}
+
+    sum_cols = {"Resource blocks", "TB Size"}
+    if rat == "5G":
+        sum_cols.add("Retransmission")  # delta_retx_bytes in 0xB881
+    agg_dict = {}
+    for col in df.columns:
+        if col == "ts":
+            continue
+        if pd.api.types.is_numeric_dtype(df[col]):
+            agg_dict[col] = "sum" if (how == "sum" and col in sum_cols) else ("mean" if how == "sum" else how)
+        else:
+            agg_dict[col] = "first"
     return df.groupby("ts", as_index=False).agg(agg_dict)
 
 def combine_run(run_dir, direction):
